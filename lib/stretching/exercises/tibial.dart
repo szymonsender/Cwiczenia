@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class ChestStretchPage extends StatefulWidget {
-  const ChestStretchPage({Key? key, required this.title}) : super(key: key);
+class TibiasStretchPage extends StatefulWidget {
+  const TibiasStretchPage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
   @override
-  State<ChestStretchPage> createState() => _ChestStretchPageState();
+  State<TibiasStretchPage> createState() => _TibiasStretchPageState();
 }
 
-class _ChestStretchPageState extends State<ChestStretchPage> {
+class _TibiasStretchPageState extends State<TibiasStretchPage> {
   var currentIndex = 0;
 
   @override
@@ -28,7 +28,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              'Stajemy przy futrynie lub stabilnym sprzęcie domowym w lekkim rozkroku, jedna ręka luźno opuszczona, druga wyprostowana i zaparta (pod kątem 90 stopni względem tułowia)o nasze stabilne oparcie. W tej pozycji wykonujemy skręty tułowia w przeciwnym kierunku do rozciąganej strony klatki(fot.1).',
+              'Siadamy na podłodze(materacu)w ten sposób, że nogi mamy ugięte w kolanach, a do podłogi przylegają jedynie podudzia przednią powierzchnią(piszczelami). Pięty pod pośladkami, stopy wyprostowane - przylegają górnymi częściami do podłogi. Z tej pozycji podnosimy się z pośladków i siadamy ponownie jednocześnie rozciągając mięśnie piszczelowe(fot.10).',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/fot1.jpg'),
+                image: AssetImage('assets/images/fot10.jpg'),
               ),
             ),
             height: 250,
@@ -46,7 +46,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             // child: const Text('Pompki klasyczne'),
           ),
           const Text(
-            'fot.1',
+            'fot.10',
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
@@ -58,7 +58,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              'Drugie ćwiczenie(fot.1a) rozciąga obie części klatki piersiowej jednocześnie-stajemy przy ścianie (tyłem do niej) -wyciągamy do tyłu wyprostowane ramiona i opieramy je wewnętrznymi częściami dłoni o ścianę, na wysokości nieco powyżej pasa. Pozostają one przez cały czas ćwiczenia w jednakowej pozycji. Z tej pozycji wykonujemy płytkie przysiady, rozciągając jednocześnie mięsnie klatki i obręczy barkowej. Należy wykonywać to ćwiczenie z dużym wyczuciem, ponieważ zbyt głębokie (lub zbyt szybkie) opuszczanie tułowia może spowodować kontuzję stawu barkowego.',
+              'Drugie ćwiczenie jest bardzo podobne do rozciągania mięśni czworogłowych ud-różni się uchwytem-zamiast w kostce trzymamy nogę za palce stóp i z tej pozycji pociągamy nogę do góry(fot.10a).',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -67,7 +67,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/fot1a.jpg'),
+                image: AssetImage('assets/images/fot10a.jpg'),
               ),
             ),
             height: 250,
@@ -76,7 +76,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             // child: const Text('Pompki klasyczne'),
           ),
           const Text(
-            'fot.1a',
+            'fot.10a',
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.bold),
           ),

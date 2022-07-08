@@ -1,4 +1,7 @@
 import 'package:cwiczenia/home_exercises/Exercises/pushup/classic/classic_push_up.dart';
+import 'package:cwiczenia/home_exercises/Exercises/pushup/on_a_rise/rise_push_ups.dart';
+import 'package:cwiczenia/home_exercises/Exercises/pushup/push-ups%20on%20chairs/chair_push_up.dart';
+import 'package:cwiczenia/home_exercises/Exercises/pushup/wall/wall_push_ups.dart';
 import 'package:cwiczenia/widgets/custom_checkbox.dart';
 import 'package:flutter/material.dart';
 
@@ -42,6 +45,74 @@ class _PushUpPageState extends State<PushUpPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text('Pompki klasyczne'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const ChairPushUpPage(
+                        title: 'Pompki na krzesłach/poręczach');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Pompki na krzesłach/poręczach'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const WallPushUpPage(title: 'Pompki przy ścianie');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Pompki przy ścianie'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const RisePushUpPage(
+                        title: 'Pompki na podwyższeniu');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Pompki na podwyższeniu'),
             ),
           ),
         ],

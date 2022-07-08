@@ -1,3 +1,4 @@
+import 'package:cwiczenia/stretching/exercises/chest.dart';
 import 'package:cwiczenia/widgets/custom_checkbox.dart';
 import 'package:flutter/material.dart';
 
@@ -21,25 +22,28 @@ class _StretchingPageState extends State<StretchingPage> {
       ),
       body: ListView(
         children: [
-          Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(13),
-              color: Colors.blue,
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const ChestStretchPage(
+                        title: 'Mięśnie klatki piersiowej');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Mięśnie klatki piersiowej'),
             ),
-            padding: const EdgeInsets.all(25),
-            margin: const EdgeInsets.all(10),
-            child: const Text('Mięśnie klatki piersiowej'),
-            // child: Transform.scale(
-            //   scale: 0.7,
-            //   alignment: Alignment.center,
-            //   child: const CustomCheckBox(
-            //     isChecked: false,
-            //     size: 20,
-            //     iconSize: 15,
-            //     selectedColor: Colors.black,
-            //     selectedIconColor: Colors.white,
-            //   ),
-            // ),
           ),
           Container(
             decoration: BoxDecoration(

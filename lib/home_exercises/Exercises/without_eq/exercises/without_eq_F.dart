@@ -28,7 +28,7 @@ class _WithoutEqFPageState extends State<WithoutEqFPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Kładziemy się płasko tyłem na podłodze. Pozycja, jak w poprzednim ćwiczeniu. Z leżenia wykonujemy jednoczesny ruch unoszenia nóg i tułowia w górę spinając tym samym mięśnie brzucha. Ćwiczenie można wykonać na wyprostowanych nogach jak również na ugiętych w kolanach.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _WithoutEqFPageState extends State<WithoutEqFPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/weq6.webp'),
               ),
             ),
             height: 250,

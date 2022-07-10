@@ -28,7 +28,7 @@ class _EkspanderEPageState extends State<EkspanderEPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Stajemy w lekkim rozkroku, jedną ręka z końcem gumy wyprostowana obok tułowia-pozostaje w jednej pozycji przez cały czas trwania ćwiczenia-druga ręka również z końcem gumy nad głową, ugięta w łokciu. Z tej pozycji prostujemy ją, jednocześnie rozciągając gumę. Tempo ruchu umiarkowane, lub wolne ze stałym napięciem mięśni trójgłowych. Ruch odbywa się tylko w stawie łokciowym.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _EkspanderEPageState extends State<EkspanderEPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/eks5.jpg'),
               ),
             ),
             height: 250,

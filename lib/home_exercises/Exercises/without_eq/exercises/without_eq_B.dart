@@ -28,7 +28,7 @@ class _WithoutEqBPageState extends State<WithoutEqBPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Analogicznie, jak przy przysiadach jest to ćwiczenie z techniką podobną do ćwiczenia z obciążeniem. Stajemy przy jakimś punkcie oparcia(dla zachowania równowagi podczas ćwiczenia) -może to być ściana, krzesło, bądź jakikolwiek stabilny sprzęt domowy. Pod palce kładziemy grubą podkładkę, dla zwiększenia zakresu ruchu. W celu zwiększenia stopnia trudności można ćwiczenie wykonać na jednej nodze.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _WithoutEqBPageState extends State<WithoutEqBPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/weq2.gif'),
               ),
             ),
             height: 250,

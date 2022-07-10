@@ -28,7 +28,7 @@ class _EkspanderHPageState extends State<EkspanderHPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Do tego ćwiczenia potrzebny będzie, poza gumą (ewentualnie, jeżeli dysponujemy dwiema gumami-możemy ćwiczyć obie ręce jednocześnie) stabilny punkt do zamocowania końca gumy/gum. Kładziemy się płasko na podłodze nogami w kierunku zamocowania końca gumy. Ramiona wyprostowane lub lekko ugięte w łokciach(lekkie ugięcie zmniejszy napięcie w stawach łokciowych- zapobiegnie kontuzjom)-opuszczone obok tułowia. W dłoniach trzymamy koniec/końce gumy/gum. Z tej pozycji wykonujemy unoszenie ramion w górę w kierunku głowy, jednocześnie rozciągając gumę/gumy. Ruch unoszenia kończymy nieco powyżej linii barków. W szczytowym momencie ruch możemy zatrzymać na chwilę dla lepszego napięcia mięśni. Powrót do pozycji wyjściowej wolny i pod pełną kontrolą.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _EkspanderHPageState extends State<EkspanderHPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/eks8.jpg'),
               ),
             ),
             height: 250,

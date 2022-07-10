@@ -55,7 +55,7 @@ class _HomeExercisesPageState extends State<HomeExercisesPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderPage(
-                        title: 'Ćwiczenia z użyciem ekspandera/gumy');
+                        title: 'Ćwiczenia z użyciem gumy');
                   },
                 ),
               );
@@ -67,7 +67,7 @@ class _HomeExercisesPageState extends State<HomeExercisesPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Ćwiczenia z użyciem ekspandera/gumy'),
+              child: const Text('Ćwiczenia z użyciem gumy'),
             ),
           ),
           InkWell(

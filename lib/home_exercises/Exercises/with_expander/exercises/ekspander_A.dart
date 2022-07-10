@@ -28,7 +28,7 @@ class _EkspanderAPageState extends State<EkspanderAPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              'Chwytamy rączki ekspandera/dwa końce gumy w pozycji stojącej, tułów wyprostowany, ekspander przerzucony za plecy na wysokości łopatek i rozciągamy go, jednocześnie próbując złączyć wyprostowane ramiona przed sobą.',
+              'Chwytamy dwa końce gumy w pozycji stojącej, tułów wyprostowany, guma przerzucona za plecy na wysokości łopatek i rozciągamy ją, jednocześnie próbując złączyć wyprostowane ramiona przed sobą.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _EkspanderAPageState extends State<EkspanderAPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/eks1.jpg'),
               ),
             ),
             height: 250,

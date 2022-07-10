@@ -28,7 +28,7 @@ class _EkspanderBPageState extends State<EkspanderBPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Do tego ćwiczenia potrzebny będzie, poza gumą stabilny punkt do zamocowania końca gumy. Mogą to być np. kaloryfery lub klamka drzwi. Stajemy(lub klękamy-jeśli nasz punkt zaczepu jest nisko -np. kaloryfer), tułów wyprostowany, jedna ręka zwisa luźno obok tułowia, drugą chwytamy koniec gumy i przyciągamy przed sobą lekko ugiętym ramieniem. Ruch powinien być miarowy, bez szarpania.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _EkspanderBPageState extends State<EkspanderBPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/eks2.jpg'),
               ),
             ),
             height: 250,

@@ -38,7 +38,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderAPage(
-                        title: 'Rozciąganie ekspandera/gumy za plecami');
+                        title: 'Rozciąganie gumy za plecami');
                   },
                 ),
               );
@@ -50,7 +50,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozciąganie ekspandera/gumy za plecami'),
+              child: const Text('Rozciąganie gumy za plecami'),
             ),
           ),
           InkWell(
@@ -62,7 +62,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                   builder: (context) {
                     return const EkspanderBPage(
                         title:
-                            'Rozciąganie zamocowanego na końcu ekspandera/gumy jednorącz stojąc');
+                            'Rozciąganie zamocowanego na końcu gumy jednorącz stojąc');
                   },
                 ),
               );
@@ -75,7 +75,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Rozciąganie zamocowanego na końcu ekspandera/gumy jednorącz stojąc'),
+                  'Rozciąganie zamocowanego na końcu gumy jednorącz stojąc'),
             ),
           ),
           InkWell(
@@ -87,7 +87,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                   builder: (context) {
                     return const EkspanderCPage(
                         title:
-                            'Rozciąganie zamocowanego na końcu ekspandera/gumy do brzucha w siadzie');
+                            'Rozciąganie zamocowanego na końcu gumy do brzucha w siadzie');
                   },
                 ),
               );
@@ -100,7 +100,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Rozciąganie zamocowanego na końcu ekspandera/gumy do brzucha w siadzie'),
+                  'Rozciąganie zamocowanego na końcu gumy do brzucha w siadzie'),
             ),
           ),
           InkWell(
@@ -111,7 +111,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderDPage(
-                        title: 'Uginanie ramienia z ekspanderem/gumą stojąc');
+                        title: 'Uginanie ramienia z gumą stojąc');
                   },
                 ),
               );
@@ -123,7 +123,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie ramienia z ekspanderem/gumą stojąc'),
+              child: const Text('Uginanie ramienia z gumą stojąc'),
             ),
           ),
           InkWell(
@@ -134,8 +134,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderEPage(
-                        title:
-                            'Francuskie wyciskanie jednorącz z ekspanderem/gumą');
+                        title: 'Francuskie wyciskanie jednorącz z gumą');
                   },
                 ),
               );
@@ -147,8 +146,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text(
-                  'Francuskie wyciskanie jednorącz z ekspanderem/gumą'),
+              child: const Text('Francuskie wyciskanie jednorącz z gumą'),
             ),
           ),
           InkWell(
@@ -159,7 +157,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderFPage(
-                        title: 'Rozciąganie ekspandera/gumy przed sobą');
+                        title: 'Rozciąganie gumy przed sobą');
                   },
                 ),
               );
@@ -171,7 +169,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozciąganie ekspandera/gumy przed sobą'),
+              child: const Text('Rozciąganie gumy przed sobą'),
             ),
           ),
           InkWell(
@@ -182,7 +180,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderGPage(
-                        title: 'Rozciąganie ekspandera/gumy nad głową');
+                        title: 'Rozciąganie gumy nad głową');
                   },
                 ),
               );
@@ -194,7 +192,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozciąganie ekspandera/gumy nad głową'),
+              child: const Text('Rozciąganie gumy nad głową'),
             ),
           ),
           InkWell(
@@ -205,8 +203,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderHPage(
-                        title:
-                            'Unoszenie ramion w górę w leżeniu z ekspanderem/gumą');
+                        title: 'Unoszenie ramion w górę w leżeniu z gumą');
                   },
                 ),
               );
@@ -218,8 +215,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text(
-                  'Unoszenie ramion w górę w leżeniu z ekspanderem/gumą'),
+              child: const Text('Unoszenie ramion w górę w leżeniu z gumą'),
             ),
           ),
           InkWell(
@@ -230,8 +226,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderIPage(
-                        title:
-                            'Unoszenie ramion w górę przodem z ekspanderem/gumą');
+                        title: 'Unoszenie ramion w górę przodem z gumą');
                   },
                 ),
               );
@@ -243,8 +238,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text(
-                  'Unoszenie ramion w górę przodem z ekspanderem/gumą'),
+              child: const Text('Unoszenie ramion w górę przodem z gumą'),
             ),
           ),
           InkWell(
@@ -255,8 +249,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
                 MaterialPageRoute(
                   builder: (context) {
                     return const EkspanderJPage(
-                        title:
-                            'Unoszenie ramion w górę bokiem z ekspanderem/gumą');
+                        title: 'Unoszenie ramion w górę bokiem z gumą');
                   },
                 ),
               );
@@ -268,8 +261,7 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text(
-                  'Unoszenie ramion w górę bokiem z ekspanderem/gumą'),
+              child: const Text('Unoszenie ramion w górę bokiem z gumą'),
             ),
           ),
         ],

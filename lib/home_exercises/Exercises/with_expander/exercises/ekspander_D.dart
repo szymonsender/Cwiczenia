@@ -28,7 +28,7 @@ class _EkspanderDPageState extends State<EkspanderDPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Stajemy w lekkim wykroku(jedna noga lekko wysunięta) o nią zahaczamy jeden koniec gumy, drugi zaś chwytamy w dłoń i uginamy ramię, jak w ćwiczeniu ze sztangielką lub rączką wyciągu. Druga ręka zwisa swobodnie obok tułowia. Ruch miarowy, tempo wolne.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _EkspanderDPageState extends State<EkspanderDPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/eks4.jpg'),
               ),
             ),
             height: 250,

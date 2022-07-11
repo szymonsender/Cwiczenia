@@ -1,3 +1,4 @@
+import 'package:cwiczenia/gym_exercises/exercises/back/back_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/chest/chest_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/shoulder_gym.dart';
 import 'package:flutter/material.dart';
@@ -75,7 +76,7 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const GymPage(title: 'Trening mięśni grzbietu');
+                    return const BackGymPage(title: 'Trening mięśni grzbietu');
                   },
                 ),
               );

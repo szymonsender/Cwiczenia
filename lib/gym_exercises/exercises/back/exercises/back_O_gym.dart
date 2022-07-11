@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class ShoulderLGymPage extends StatefulWidget {
-  const ShoulderLGymPage({Key? key, required this.title}) : super(key: key);
+class BackOGymPage extends StatefulWidget {
+  const BackOGymPage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
   @override
-  State<ShoulderLGymPage> createState() => _ShoulderLGymPageState();
+  State<BackOGymPage> createState() => _BackOGymPageState();
 }
 
-class _ShoulderLGymPageState extends State<ShoulderLGymPage> {
+class _BackOGymPageState extends State<BackOGymPage> {
   var currentIndex = 0;
 
   @override

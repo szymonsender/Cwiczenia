@@ -8,11 +8,6 @@ import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_G_
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_H_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_I_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_J_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_K_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_L_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_M_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_N_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/shoulder/exercises/shoulder_O_gym.dart';
 import 'package:flutter/material.dart';
 
 class ShoulderGymPage extends StatefulWidget {
@@ -262,124 +257,6 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text('Unoszenie ramion w przód ze sztangielkami'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const ShoulderKGymPage(
-                        title: 'Unoszenie ramion ze sztangielkami w leżeniu');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion ze sztangielkami w leżeniu'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const ShoulderLGymPage(
-                        title: 'Unoszenie ramion w przód z linkami wyciągu');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion w przód z linkami wyciągu'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const ShoulderMGymPage(
-                        title:
-                            'Unoszenie ramion bokiem w górę z linkami wyciągu');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text(
-                  'Unoszenie ramion bokiem w górę z linkami wyciągu'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const ShoulderNGymPage(
-                        title:
-                            'Unoszenie ramion bokiem w górę w opadzie tułowia z linkami wyciągu');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text(
-                  'Unoszenie ramion bokiem w górę w opadzie tułowia z linkami wyciągu'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const ShoulderOGymPage(title: 'Odwrotne rozpiętki');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text('Odwrotne rozpiętki'),
             ),
           ),
         ],

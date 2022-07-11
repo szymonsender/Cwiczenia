@@ -28,7 +28,7 @@ class _ShoulderJGymPageState extends State<ShoulderJGymPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Ćwiczenie wykonujemy w pozycji stojącej - można również wykonywać w pozycji siedzącej. Technika-jak w wariancie ze sztangą, z ta różnicą, że można wykonywać ruchy na  obiema rękami jednocześnie, lub pojedynczo (jedna ręka w gorę, druga w spoczynku, lub jedna ręka w górę, a druga w tym czasie  porusza się w dół). Uchwyt (ustawienie nadgarstka), jak w ćwiczeniu ze sztangą może być różny-adekwatny do celu ćwiczenia.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _ShoulderJGymPageState extends State<ShoulderJGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/sh14.gif'),
               ),
             ),
             height: 250,

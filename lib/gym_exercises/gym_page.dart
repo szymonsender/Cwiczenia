@@ -1,3 +1,5 @@
+import 'package:cwiczenia/gym_exercises/exercises/chest/chest_gym.dart';
+import 'package:cwiczenia/gym_exercises/exercises/shoulder/shoulder_gym.dart';
 import 'package:flutter/material.dart';
 
 class GymPage extends StatefulWidget {
@@ -18,7 +20,195 @@ class _GymPageState extends State<GymPage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      
+      body: ListView(
+        children: [
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const ShoulderGymPage(
+                        title: 'Trening mięśni naramiennych');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Trening mięśni naramiennych'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const ChestGymPage(
+                        title: 'Trening mięśni klatki piersiowej');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Trening mięśni klatki piersiowej'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const GymPage(title: 'Trening mięśni grzbietu');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Trening mięśni grzbietu'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const GymPage(
+                        title: 'Trening mięśni nóg i mięśni pośladkowych');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Trening mięśni nóg i mięśni pośladkowych'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const GymPage(
+                        title: 'Trening mięśni podudzi (łydek i piszczeli)');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Trening mięśni podudzi (łydek i piszczeli)'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const GymPage(title: 'Trening mięśni brzucha');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Trening mięśni brzucha'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const GymPage(
+                        title:
+                            'Trening mięśni dwugłowych ramion (bicepsów), mięśni ramiennych oraz przedramion');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child: const Text(
+                  'Trening mięśni dwugłowych ramion (bicepsów), mięśni ramiennych oraz przedramion'),
+            ),
+          ),
+          InkWell(
+            splashColor: Colors.grey,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return const GymPage(
+                        title: 'Trening mięśni trójgłowych ramion (tricepsów)');
+                  },
+                ),
+              );
+            },
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(13),
+                color: Colors.blue,
+              ),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(10),
+              child:
+                  const Text('Trening mięśni trójgłowych ramion (tricepsów)'),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

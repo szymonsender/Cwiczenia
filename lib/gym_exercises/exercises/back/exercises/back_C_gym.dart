@@ -28,7 +28,7 @@ class _BackCGymPageState extends State<BackCGymPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Chwytamy drążek prosty podchwytem. Nogi zwisają luźno, lekko podkurczone w kolanach. Ze zwisu przechodzimy do podciągania. Kończymy je, gdy nasza broda znajdzie się ponad drążkiem, a nasze ramiona będą w pełni ugięte w łokciach. Łokcie staramy się prowadzić wzdłuż tułowia. Opuszczamy się powoli-kontrolując swój ciężar. Jeśli jesteśmy bardziej zaawansowani i możemy wykonać wiele powtórzeń w tym ćwiczeniu, to można zastosować dodatkowe obciążenie.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _BackCGymPageState extends State<BackCGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/back3.gif'),
               ),
             ),
             height: 250,

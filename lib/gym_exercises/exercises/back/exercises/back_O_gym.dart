@@ -28,7 +28,7 @@ class _BackOGymPageState extends State<BackOGymPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Do wykonania tego ćwiczenia jest potrzebna specjalna ławka. Kładziemy się twarzą do dołu na ławce, tak by biodra spoczywały na niej, a nogi były zaparte o specjalną poprzeczkę. Ręce krzyżujemy na piersiach-jeśli wykonujemy ćwiczenie bez obciążenia. Jeśli używamy ciężaru-chwytamy sztangę(bądź krążek). Głowa w naturalnej pozycji, przy wyprostowanym karku. Ćwiczenie to można podzielić na trzy fazy-w zależności od pochylenia tułowia. Generalnie im głębszy skłon tym większe rozciągnięcie mięsni grzbietu, ale i większe zaangażowanie mięśni dwugłowych ud i pośladkowych. Ruch powinien być płynny, bez „szarpania” i zamaszystych ruchów, które powodują ominięcie najtrudniejszego punktu ćwiczenia. Ważne jest stałe napięcie mięsni i „czucie” ich pracy. Do wykonania tego ćwiczenia(w nieco innej pozycji) może służyć również specjalna maszyna.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,19 @@ class _BackOGymPageState extends State<BackOGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/back15.gif'),
+              ),
+            ),
+            height: 250,
+            padding: const EdgeInsets.all(25),
+            margin: const EdgeInsets.all(10),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(13),
+              color: Colors.white,
+              image: const DecorationImage(
+                image: AssetImage('assets/images/back15a.gif'),
               ),
             ),
             height: 250,

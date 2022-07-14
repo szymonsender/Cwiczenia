@@ -1,6 +1,7 @@
 import 'package:cwiczenia/gym_exercises/exercises/back/back_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/chest/chest_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/shoulder_gym.dart';
+import 'package:cwiczenia/gym_exercises/exercises/thigs_and_buttocks/thigs_and_buttocks.dart';
 import 'package:flutter/material.dart';
 
 class GymPage extends StatefulWidget {
@@ -98,7 +99,7 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const GymPage(
+                    return const ThigsButtGymPage(
                         title: 'Trening mięśni nóg i mięśni pośladkowych');
                   },
                 ),

@@ -28,7 +28,7 @@ class _BackMGymPageState extends State<BackMGymPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              '',
+              'Jest to ćwiczenie podobne do wiosłowania w opadzie tułowia, ale odciąża ono dolny odcinek mięsni grzbietu-szczególnie polecane dla osób, które mają kłopoty z tą właśnie częścią. Technika podobna jak w ćwiczeniu w opadzie. Tułów oparty o ławkę poziomą. Łokcie przy ćwiczeniu ze sztangą prowadzimy w bok od tułowia, a w wersji ze sztangielkami wzdłuż tułowia(zaangażowanie mięśni analogicznie, jak przy ćwiczeniu w opadzie-z wyłączeniem pracy dolnego odcinka grzbietu). Ćwiczenie to można również wykonać na ławce skośnej. Zaangażowane będą te same mięśnie jednak pod innym kątem.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,19 @@ class _BackMGymPageState extends State<BackMGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/push_up.gif'),
+                image: AssetImage('assets/images/back13.gif'),
+              ),
+            ),
+            height: 250,
+            padding: const EdgeInsets.all(25),
+            margin: const EdgeInsets.all(10),
+          ),
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(13),
+              color: Colors.white,
+              image: const DecorationImage(
+                image: AssetImage('assets/images/back13a.gif'),
               ),
             ),
             height: 250,

@@ -1,20 +1,22 @@
-import 'package:cwiczenia/gym_exercises/exercises/back/back_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/calves/calves_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/chest/chest_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/shoulder/shoulder_gym.dart';
-import 'package:cwiczenia/gym_exercises/exercises/thigs_and_buttocks/thigs_and_buttocks.dart';
+import 'package:cwiczenia/gym_exercises/exercises/calves/exercises/calves_A.dart';
+import 'package:cwiczenia/gym_exercises/exercises/calves/exercises/calves_B.dart';
+import 'package:cwiczenia/gym_exercises/exercises/calves/exercises/calves_C.dart';
+import 'package:cwiczenia/gym_exercises/exercises/calves/exercises/calves_D.dart';
+import 'package:cwiczenia/gym_exercises/exercises/calves/exercises/calves_E.dart';
+import 'package:cwiczenia/gym_exercises/exercises/calves/exercises/calves_F.dart';
+
 import 'package:flutter/material.dart';
 
-class GymPage extends StatefulWidget {
-  const GymPage({Key? key, required this.title}) : super(key: key);
+class CalvesGymPage extends StatefulWidget {
+  const CalvesGymPage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
   @override
-  State<GymPage> createState() => _GymPageState();
+  State<CalvesGymPage> createState() => _CalvesGymPageState();
 }
 
-class _GymPageState extends State<GymPage> {
+class _CalvesGymPageState extends State<CalvesGymPage> {
   var currentIndex = 0;
 
   @override
@@ -32,8 +34,8 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const ShoulderGymPage(
-                        title: 'Trening mięśni naramiennych');
+                    return const CalvesAGymPage(
+                        title: 'Wspięcia na palce w staniu');
                   },
                 ),
               );
@@ -45,7 +47,7 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni naramiennych'),
+              child: const Text('Wspięcia na palce w staniu'),
             ),
           ),
           InkWell(
@@ -55,8 +57,8 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const ChestGymPage(
-                        title: 'Trening mięśni klatki piersiowej');
+                    return const CalvesBGymPage(
+                        title: 'Wspięcia na palce w siadzie');
                   },
                 ),
               );
@@ -68,7 +70,7 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni klatki piersiowej'),
+              child: const Text('Wspięcia na palce w siadzie'),
             ),
           ),
           InkWell(
@@ -78,7 +80,7 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const BackGymPage(title: 'Trening mięśni grzbietu');
+                    return const CalvesCGymPage(title: 'Ośle wspięcia');
                   },
                 ),
               );
@@ -90,7 +92,7 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni grzbietu'),
+              child: const Text('Ośle wspięcia'),
             ),
           ),
           InkWell(
@@ -100,8 +102,8 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const ThigsButtGymPage(
-                        title: 'Trening mięśni nóg i mięśni pośladkowych');
+                    return const CalvesDGymPage(
+                        title: 'Wspięcia na palce na "hack-maszynie"');
                   },
                 ),
               );
@@ -113,7 +115,7 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni nóg i mięśni pośladkowych'),
+              child: const Text('Wspięcia na palce na "hack-maszynie"'),
             ),
           ),
           InkWell(
@@ -123,54 +125,9 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const CalvesGymPage(
-                        title: 'Trening mięśni podudzi (łydek i piszczeli)');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni podudzi (łydek i piszczeli)'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const GymPage(title: 'Trening mięśni brzucha');
-                  },
-                ),
-              );
-            },
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(13),
-                color: Colors.blue,
-              ),
-              padding: const EdgeInsets.all(25),
-              margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni brzucha'),
-            ),
-          ),
-          InkWell(
-            splashColor: Colors.grey,
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return const GymPage(
+                    return const CalvesEGymPage(
                         title:
-                            'Trening mięśni dwugłowych ramion (bicepsów), mięśni ramiennych oraz przedramion');
+                            'Wypychanie ciężaru na maszynie/suwnicy palcami nóg');
                   },
                 ),
               );
@@ -183,7 +140,7 @@ class _GymPageState extends State<GymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Trening mięśni dwugłowych ramion (bicepsów), mięśni ramiennych oraz przedramion'),
+                  'Wypychanie ciężaru na maszynie/suwnicy palcami nóg'),
             ),
           ),
           InkWell(
@@ -193,8 +150,8 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const GymPage(
-                        title: 'Trening mięśni trójgłowych ramion (tricepsów)');
+                    return const CalvesFGymPage(
+                        title: 'Odwrotne wspięcia w staniu');
                   },
                 ),
               );
@@ -206,8 +163,7 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child:
-                  const Text('Trening mięśni trójgłowych ramion (tricepsów)'),
+              child: const Text('Odwrotne wspięcia w staniu'),
             ),
           ),
         ],

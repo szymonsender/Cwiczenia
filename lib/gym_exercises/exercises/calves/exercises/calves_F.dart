@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
-class ThigsButtJGymPage extends StatefulWidget {
-  const ThigsButtJGymPage({Key? key, required this.title}) : super(key: key);
+class CalvesFGymPage extends StatefulWidget {
+  const CalvesFGymPage({Key? key, required this.title}) : super(key: key);
 
   final String title;
 
   @override
-  State<ThigsButtJGymPage> createState() => _ThigsButtJGymPageState();
+  State<CalvesFGymPage> createState() => _CalvesFGymPageState();
 }
 
-class _ThigsButtJGymPageState extends State<ThigsButtJGymPage> {
+class _CalvesFGymPageState extends State<CalvesFGymPage> {
   var currentIndex = 0;
 
   @override
@@ -28,7 +28,7 @@ class _ThigsButtJGymPageState extends State<ThigsButtJGymPage> {
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
             child: const Text(
-              'Ćwiczenie to jest odwrotnością poprzedniego -wykrok jest robiony do tyłu zamiast do przodu. Przysiad wykonujemy nie na nodze wykrocznej, ale na zakrocznej -czyli tej, która pozostaje w miejscu. Ćwiczenie to można wykonać ze sztangą, sztangielkami, lub za pomocą suwnicy Smitha.',
+              'Ćwiczenie podobne do wspięć na palce- różnica jest taka, że podkładki są pod piętami, a unosimy nie pięty, lecz śródstopia nóg. Pozycja taka, jak przy wspięciach na palce, ale nie rozciągamy mięśni łydek w początkowej fazie- tylko mięśnie piszczelowe. Ćwiczenie to można wykonywać ze sztangą, sztangielką lub na specjalnej maszynie.',
               style: TextStyle(fontSize: 15),
             ),
           ),
@@ -37,7 +37,7 @@ class _ThigsButtJGymPageState extends State<ThigsButtJGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/thibutt10.gif'),
+                image: AssetImage('assets/images/calves6.gif'),
               ),
             ),
             height: 250,
@@ -49,7 +49,7 @@ class _ThigsButtJGymPageState extends State<ThigsButtJGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/thibutt10a.gif'),
+                image: AssetImage('assets/images/calves6a.gif'),
               ),
             ),
             height: 250,
@@ -61,7 +61,7 @@ class _ThigsButtJGymPageState extends State<ThigsButtJGymPage> {
               borderRadius: BorderRadius.circular(13),
               color: Colors.white,
               image: const DecorationImage(
-                image: AssetImage('assets/images/thibutt10b.gif'),
+                image: AssetImage('assets/images/calves6b.gif'),
               ),
             ),
             height: 250,

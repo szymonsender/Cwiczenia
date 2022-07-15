@@ -1,4 +1,5 @@
 import 'package:cwiczenia/gym_exercises/exercises/back/back_gym.dart';
+import 'package:cwiczenia/gym_exercises/exercises/belly/belly_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/calves/calves_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/chest/chest_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/shoulder_gym.dart';
@@ -146,7 +147,7 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const GymPage(title: 'Trening mięśni brzucha');
+                    return const BellyGymPage(title: 'Trening mięśni brzucha');
                   },
                 ),
               );

@@ -5,6 +5,7 @@ import 'package:cwiczenia/gym_exercises/exercises/calves/calves_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/chest/chest_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/shoulder/shoulder_gym.dart';
 import 'package:cwiczenia/gym_exercises/exercises/thigs_and_buttocks/thigs_and_buttocks.dart';
+import 'package:cwiczenia/gym_exercises/exercises/triceps/tricpes.dart';
 import 'package:flutter/material.dart';
 
 class GymPage extends StatefulWidget {
@@ -195,7 +196,7 @@ class _GymPageState extends State<GymPage> {
                 context,
                 MaterialPageRoute(
                   builder: (context) {
-                    return const GymPage(
+                    return const TricepsGymPage(
                         title: 'Trening mięśni trójgłowych ramion (tricepsów)');
                   },
                 ),

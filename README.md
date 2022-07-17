@@ -1,16 +1,14 @@
-# cwiczenia
+# Ćwiczenia
 
-A new Flutter project.
+The application was created for people who want to start their adventure with exercises, or want to expand their knowledge on how to perform a particular exercise correctly.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Note that the application contains a lot of text for confidence in performing the exercise correctly.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Gif's
+
+<img src="https://user-images.githubusercontent.com/87803016/179417809-b9a61fe3-0ab9-427a-926d-3c833f0378f8.gif" width="200"> <img src="https://user-images.githubusercontent.com/87803016/179417995-d5241d40-38dc-40f0-a912-3f5181b7eb43.gif" width="200">  
+

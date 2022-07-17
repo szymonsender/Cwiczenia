@@ -10,5 +10,5 @@ Note that the application contains a lot of text for confidence in performing th
 
 # Gif's
 
+<img src="[https://imgur.com/k0QVf9K.png](https://user-images.githubusercontent.com/87803016/179417809-b9a61fe3-0ab9-427a-926d-3c833f0378f8.gif)" width="200"> <img src="[https://imgur.com/1vYsIiP.png](https://user-images.githubusercontent.com/87803016/179417995-d5241d40-38dc-40f0-a912-3f5181b7eb43.gif)" width="200">  
 
-![animiertes-gif-von-online-umwandeln-de](https://user-images.githubusercontent.com/87803016/179417809-b9a61fe3-0ab9-427a-926d-3c833f0378f8.gif)

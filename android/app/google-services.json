@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586572880569",
+    "project_id": "gym-book-friends",
+    "storage_bucket": "gym-book-friends.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586572880569:android:79efc311d882a7f1721968",
+        "android_client_info": {
+          "package_name": "com.szymonsender.cwiczenia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586572880569-kvoclr76gevbbtkk6ku0ggrupuk7r55q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6KnwixIhbXcMnFMP-IIMRQqoQrnx-TOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586572880569-kvoclr76gevbbtkk6ku0ggrupuk7r55q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

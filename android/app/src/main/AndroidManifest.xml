@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cwiczenia">
+    package="com.szymonsender.cwiczenia">
    <application
         android:label="cwiczenia"
         android:name="${applicationName}"

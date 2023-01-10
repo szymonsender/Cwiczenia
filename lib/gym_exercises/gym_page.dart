@@ -23,9 +23,9 @@ class _GymPageState extends State<GymPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      // appBar: AppBar(
+      //   title: Text(widget.title),
+      // ),
       body: ListView(
         children: [
           InkWell(

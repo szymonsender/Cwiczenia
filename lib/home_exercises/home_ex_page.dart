@@ -20,9 +20,6 @@ class _HomeExercisesPageState extends State<HomeExercisesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
       body: ListView(
         children: [
           InkWell(

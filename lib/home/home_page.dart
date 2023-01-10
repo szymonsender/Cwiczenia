@@ -1,3 +1,4 @@
+import 'package:cwiczenia/favorite/favorite_page.dart';
 import 'package:cwiczenia/gym_exercises/gym_page.dart';
 import 'package:cwiczenia/home_exercises/home_ex_page.dart';
 import 'package:cwiczenia/stretching/stretching.dart';
@@ -19,6 +20,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(widget.title),
       ),
       body: Builder(
@@ -30,6 +32,16 @@ class _HomePageState extends State<HomePage> {
           }
           if (currentIndex == 1) {
             return HomeExercisesPage(
+              onSave: () {
+                setState(() {
+                  currentIndex = 0;
+                });
+              },
+              title: 'Ćwiczenia w domu',
+            );
+          }
+          if (currentIndex == 3) {
+            return FavoritePage(
               onSave: () {
                 setState(() {
                   currentIndex = 0;
@@ -54,14 +66,22 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.villa_rounded),
             label: 'Ćwiczenia na siłowni',
+            backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Ćwiczenia w domu',
+            backgroundColor: Colors.black,
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.sports_gymnastics),
             label: 'Rozciąganie',
+            backgroundColor: Colors.black,
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.favorite_border),
+            label: 'Ulubione',
+            backgroundColor: Colors.black,
           ),
         ],
       ),

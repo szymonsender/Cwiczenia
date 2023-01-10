@@ -29,7 +29,7 @@ class _BackMGymPageState extends State<BackMGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jest to ćwiczenie podobne do wiosłowania w opadzie tułowia, ale odciąża ono dolny odcinek mięsni grzbietu-szczególnie polecane dla osób, które mają kłopoty z tą właśnie częścią. Technika podobna jak w ćwiczeniu w opadzie. Tułów oparty o ławkę poziomą. Łokcie przy ćwiczeniu ze sztangą prowadzimy w bok od tułowia, a w wersji ze sztangielkami wzdłuż tułowia(zaangażowanie mięśni analogicznie, jak przy ćwiczeniu w opadzie-z wyłączeniem pracy dolnego odcinka grzbietu). Ćwiczenie to można również wykonać na ławce skośnej. Zaangażowane będą te same mięśnie jednak pod innym kątem.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

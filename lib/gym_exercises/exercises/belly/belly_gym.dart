@@ -52,7 +52,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony w leżeniu płasko'),
+              child: const Text(
+                'Skłony w leżeniu płasko',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -75,7 +80,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony w leżeniu głową w dół'),
+              child: const Text(
+                'Skłony w leżeniu głową w dół',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -98,7 +108,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie nóg w leżeniu na skośnej ławce'),
+              child: const Text(
+                'Unoszenie nóg w leżeniu na skośnej ławce',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -121,7 +136,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie nóg w zwisie na drążku'),
+              child: const Text(
+                'Unoszenie nóg w zwisie na drążku',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -144,7 +164,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie nóg w podporze'),
+              child: const Text(
+                'Unoszenie nóg w podporze',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -167,7 +192,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('"Spinanie"/Unoszenie kolan w leżeniu płasko'),
+              child: const Text(
+                '"Spinanie"/Unoszenie kolan w leżeniu płasko',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -190,7 +220,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony tułowia z linką wyciągu siedząc'),
+              child: const Text(
+                'Skłony tułowia z linką wyciągu siedząc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -212,7 +247,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skręty tułowia'),
+              child: const Text(
+                'Skręty tułowia',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -235,7 +275,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony tułowia z linką wyciągu klęcząc'),
+              child: const Text(
+                'Skłony tułowia z linką wyciągu klęcząc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -257,7 +302,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony boczne'),
+              child: const Text(
+                'Skłony boczne',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -279,7 +329,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony boczne na ławce'),
+              child: const Text(
+                'Skłony boczne na ławce',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -302,7 +357,12 @@ class _BellyGymPageState extends State<BellyGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skręty tułowia w leżeniu'),
+              child: const Text(
+                'Skręty tułowia w leżeniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

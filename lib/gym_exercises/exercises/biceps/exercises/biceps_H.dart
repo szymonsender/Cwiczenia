@@ -29,7 +29,7 @@ class _BicepsHGymPageState extends State<BicepsHGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jak w ćwiczeniu ze sztanga, gdy wykonujemy ćwiczenie obiema rękami, tylko gryf sztangi zastępujemy drążkiem wyciągu, bądź rączką wyciągu, gdy wykonujemy ćwiczenie jednorącz.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

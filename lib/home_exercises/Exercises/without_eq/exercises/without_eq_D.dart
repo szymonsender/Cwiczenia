@@ -29,7 +29,7 @@ class _WithoutEqDPageState extends State<WithoutEqDPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się tyłem płasko na podłodze ramiona za głową(najlepiej, jeśli trzymamy jakiś punkt oparcia np. szafa, kaloryfer), tułów przylega do podłoża. Z tej pozycji unosimy nogi do klatki jednocześnie zginając je lekko w kolanach. Nabieramy powietrza przed rozpoczęciem ruchu, a wypuszczamy je w trakcie unoszenia nóg. Pod koniec unoszenia można skręcać nieco tułów i biodra dla zaangażowania mięśni skośnych brzucha.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

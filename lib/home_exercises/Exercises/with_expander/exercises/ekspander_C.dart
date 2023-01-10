@@ -29,7 +29,7 @@ class _EkspanderCPageState extends State<EkspanderCPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Do tego ćwiczenia potrzebny będzie, poza gumą stabilny punkt do zamocowania końca gumy. Siadamy płasko, nogi zaparte o stabilną podporę tułów wyprostowany, zachowana naturalna krzywizna kręgosłupa, chwytamy wolny koniec gumy (jednorącz lub oburącz) i przyciągamy do brzucha, rozciągając gumę.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

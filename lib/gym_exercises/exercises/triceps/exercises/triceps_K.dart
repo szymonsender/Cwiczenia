@@ -29,7 +29,7 @@ class _TricepsKGymPageState extends State<TricepsKGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Podobne ćwiczenie do prostowania nachwytem. Nieco trudniejsze w wykonaniu, a to za sprawą niełatwego w opanowaniu podchwytu. Łokcie nieruchomo przy tułowiu, pełen zakres ruchu w łokciach. Kontrola ciężaru przez cały czas, opuszczanie wolniejsze od unoszenia. W końcowym momencie (przy wyprostowanym ramieniu) wstrzymujemy na chwilę ruch dla lepszego napięcia mięśni.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

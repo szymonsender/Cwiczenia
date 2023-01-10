@@ -29,7 +29,7 @@ class _BellyHGymPageState extends State<BellyHGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to można wykonać zarówno w pozycji siedzącej, jak i stojącej- na maszynie lub, jeśli takiej nie posiadamy- za pomocą gryfu sztangi (tylko nie „olimpijskiej”- może być zbyt ciężki) zaawansowani mogą pozwolić sobie na użycie pewnego obciążenia, oczywiście z umiarem. Zbyt duże przeciąża dolny odcinek kręgosłupa. W pozycji stojącej- stajemy w rozkroku szerszym niż barki, gryf kładziemy na karku, ramiona oparte szeroko na gryfie. W pozycji siedzącej (na maszynie) chwytamy rączki maszyny, tułów wyprostowany przez cały czas wykonania ćwiczenia, nogi w jednakowej pozycji (ugięte w kolanach i skierowane do przodu- najlepiej, gdy są zaparte- dla lepszej stabilizacji tułowia) w trakcie całego ćwiczenia.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

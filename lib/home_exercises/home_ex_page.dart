@@ -41,7 +41,12 @@ class _HomeExercisesPageState extends State<HomeExercisesPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki'),
+              child: const Text(
+                'Pompki',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -64,7 +69,12 @@ class _HomeExercisesPageState extends State<HomeExercisesPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Ćwiczenia z użyciem gumy'),
+              child: const Text(
+                'Ćwiczenia z użyciem gumy',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -87,7 +97,12 @@ class _HomeExercisesPageState extends State<HomeExercisesPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pozostałe ćwiczenia bezprzyrządowe'),
+              child: const Text(
+                'Pozostałe ćwiczenia bezprzyrządowe',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

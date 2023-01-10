@@ -29,7 +29,7 @@ class _StomachStretchPageState extends State<StomachStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się twarzą do podłogi, przylegają do niej tylko nogi na całej długości, tułów podparty na ramionach(pozycja podobna, jak do pompek).Z tej pozycji staramy się dłonie przesuwać w kierunku pasa po podłodze, rozciągając w ten sposób mięsnie brzucha.(fot 12).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _StomachStretchPageState extends State<StomachStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.12',

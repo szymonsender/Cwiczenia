@@ -29,7 +29,7 @@ class _LowerBackStretchPageState extends State<LowerBackStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się na plecach na podłodze, ramiona rozkładamy szeroko na podłodze, z tej pozycji jedna nogę unosimy i dotykamy nią(wewnętrzna stroną) podłogi po stronie przeciwnej, na wysokości pasa. Jednocześnie obracamy biodra w tym samym kierunku. Druga noga pozostaje przez cały czas nieruchoma i przylega do podłogi. Takie ruchy wykonujemy na przemian lewą i prawą nogą(fot.13).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _LowerBackStretchPageState extends State<LowerBackStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.13',

@@ -29,7 +29,7 @@ class _BellyLGymPageState extends State<BellyLGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się na ławce skośnej, lub poziomej (bądź materacu- jeżeli wykonujemy ćwiczenie w poziomie), plecy i biodra przylegają do podłoża, ręce splecione na karku lub na klatce. Z tej pozycji lekko unosimy barki i głowę, odrywając plecy od podłoża, jednocześnie skręcając tułów raz w jedną stronę, raz w drugą. Oddychanie, jak przy skłonach.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

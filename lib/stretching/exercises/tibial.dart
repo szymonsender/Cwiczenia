@@ -29,7 +29,7 @@ class _TibiasStretchPageState extends State<TibiasStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Siadamy na podłodze(materacu)w ten sposób, że nogi mamy ugięte w kolanach, a do podłogi przylegają jedynie podudzia przednią powierzchnią(piszczelami). Pięty pod pośladkami, stopy wyprostowane - przylegają górnymi częściami do podłogi. Z tej pozycji podnosimy się z pośladków i siadamy ponownie jednocześnie rozciągając mięśnie piszczelowe(fot.10).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -59,7 +59,7 @@ class _TibiasStretchPageState extends State<TibiasStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Drugie ćwiczenie jest bardzo podobne do rozciągania mięśni czworogłowych ud-różni się uchwytem-zamiast w kostce trzymamy nogę za palce stóp i z tej pozycji pociągamy nogę do góry(fot.10a).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -73,7 +73,6 @@ class _TibiasStretchPageState extends State<TibiasStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.10a',

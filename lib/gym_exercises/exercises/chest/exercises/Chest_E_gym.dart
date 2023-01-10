@@ -29,7 +29,7 @@ class _ChestEGymPageState extends State<ChestEGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ławeczkę ustawiamy pod kątem 30-45 stopni- kładziemy się głową w dół, zapierając nogi o coś dla stabilności, aby nie zsunąć się w dół podczas wykonywania ćwiczenia. Ruch wygląda tak samo, jak podczas wyciskania na ławce poziomej. Opuszczając sztangę nabieramy głęboko powietrza, wydychamy je wyciskając sztangę w górę. Ćwiczenie można wykonywać również przy pomocy suwnicy Smitha, lub maszyn.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _ThigsButtBGymPageState extends State<ThigsButtBGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Podobna technika, jak przy zwykłych przysiadach. Mocniej jednak angażowane są mięśnie czworogłowe ud-spowodowane jest to pionową pozycją tułowia związaną z położeniem sztangi z przodu. Gryf spoczywa na przedniej części mięśni naramiennych i górnej części klatki piersiowej. Uchwyt na szerokość barków-jeżeli trzymamy sztangę podchwytem (co jest może mniej wygodne, ale bezpieczniejsze) lub węższy -jeżeli trzymamy gryf nachwytem -ze skrzyżowanymi ramionami (co jest mniej męczące dla nadgarstków, ale przy dużych ciężarach mniej bezpieczne).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

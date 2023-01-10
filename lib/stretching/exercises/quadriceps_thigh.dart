@@ -32,7 +32,7 @@ class _QuadricepsThighStretchPageState
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy na jednej nodze(najlepiej przy ścianie lub innym punkcie podparcia), drugą uginamy w kolanie i chwytamy ręką za stopę w kostce(lewa noga-lewa ręka, prawa noga-prawa ręka). Z tej pozycji przyciągamy ugiętą nogę maksymalnie do góry.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -46,7 +46,6 @@ class _QuadricepsThighStretchPageState
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.7',

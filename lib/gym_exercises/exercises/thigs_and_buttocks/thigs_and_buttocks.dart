@@ -57,7 +57,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przysiady ze sztangą na barkach'),
+              child: const Text(
+                'Przysiady ze sztangą na barkach',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -80,7 +85,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przysiady ze sztangą trzymaną z przodu'),
+              child: const Text(
+                'Przysiady ze sztangą trzymaną z przodu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -102,7 +112,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Hack-przysiady'),
+              child: const Text(
+                'Hack-przysiady',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -125,7 +140,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przysiady w suwnicy skośnej (hack-maszynie)'),
+              child: const Text(
+                'Przysiady w suwnicy skośnej (hack-maszynie)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -147,7 +167,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Syzyfki'),
+              child: const Text(
+                'Syzyfki',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -170,7 +195,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Prostowanie nóg w siadzie'),
+              child: const Text(
+                'Prostowanie nóg w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -193,7 +223,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wypychanie ciężaru na suwnicy (maszynie)'),
+              child: const Text(
+                'Wypychanie ciężaru na suwnicy (maszynie)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -216,7 +251,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie nóg w leżeniu'),
+              child: const Text(
+                'Uginanie nóg w leżeniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -239,7 +279,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przysiady wykroczne'),
+              child: const Text(
+                'Przysiady wykroczne',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -261,7 +306,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Nożyce'),
+              child: const Text(
+                'Nożyce',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -284,7 +334,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wysoki "step" ze sztangą/sztangielkami'),
+              child: const Text(
+                'Wysoki "step" ze sztangą/sztangielkami',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -307,7 +362,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Odwodzenie nogi w tył'),
+              child: const Text(
+                'Odwodzenie nogi w tył',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -330,7 +390,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Ściąganie kolan w siadzie'),
+              child: const Text(
+                'Ściąganie kolan w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -353,7 +418,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przywodzenie nóg do wewnątrz'),
+              child: const Text(
+                'Przywodzenie nóg do wewnątrz',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -376,7 +446,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Odwodzenie nóg na zewnątrz'),
+              child: const Text(
+                'Odwodzenie nóg na zewnątrz',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -399,7 +474,12 @@ class _ThigsButtGymPageState extends State<ThigsButtGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('"Martwy ciąg" na prostych nogach'),
+              child: const Text(
+                '"Martwy ciąg" na prostych nogach',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

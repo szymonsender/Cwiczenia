@@ -29,7 +29,7 @@ class _CalvesAGymPageState extends State<CalvesAGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to można wykonywać zarówno przy pomocy sztangi, suwnicy Smitha lub specjalnej maszyny. Można wykonywać je również bez obciążenia, a także jednonóż. Sztangę można również zastąpić sztangielką trzymaną w dłoni (po tej samej stronie, co ćwiczona noga: lewa noga- lewa ręka, prawa noga- prawa ręka). Istotnym elementem w tym ćwiczeniu jest użycie grubej podkładki pod palce stóp, która pozwala zwiększyć znacznie zakres ruchu, a co za tym idzie -poprawić efektywność ćwiczenia. Pozycja wyjściowa, to wyprostowany tułów i plecy, nogi wyprostowane w kolanach, rozkrok 25-30 cm, palce stóp (wraz ze stawami łączącymi je ze śródstopiem) na podkładce-mięsnie łydek rozciągnięte maksymalnie. Z takiej pozycji rozpoczynamy wspięcia. Ruch powinien być wolny i dokładny, ze stałym „czuciem” pracy mięśni. Należy unikać odbijania się pięt od podłogi.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

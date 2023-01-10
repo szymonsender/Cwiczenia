@@ -29,7 +29,7 @@ class _ShoulderDGymPageState extends State<ShoulderDGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie można wykonywać zarówno w pozycji stojącej, jak i siedzącej -z łokciami przy tułowiu chwytamy sztangielki i unosimy je na wysokość barków tak, aby palce dłoni były skierowane do nas (podchwyt), równym tempem wypychamy sztangielki ponad głowę do pozycji, w której jeszcze nie są zablokowane ramiona-podczas wyciskania sztangielek obracamy dłonie tak, aby w końcowej fazie ruchu palce były skierowane do przodu (nachwyt) - w szczytowym punkcie powtórzenia wstrzymujemy ruch na moment, po czym opuszczamy sztangielki do pozycji wyjściowej. Unikajmy blokowania ramion nad głową-dzięki temu utrzymamy stałe napięcie ćwiczonych mięśni.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _ThigsButtFGymPageState extends State<ThigsButtFGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Siadamy na siodle maszyny (ławki), dobrze gdy mamy oparcie -zapewnia ono lepszą stabilność tułowia, dłońmi chwytamy za uchwyt (lub krawędź) maszyny. Nogi ugięte w kolanach, zaparte o drążek maszyny na stopami (na wysokości kostek). Z tej pozycji wykonujemy ruch prostowania nóg do pełnego wyprostu w stawach kolanowych. W pozycji wyprostowanej zatrzymujemy ruch przez chwilę dla lepszego napięcia mięśni. Po czym powracamy do pozycji wyjściowej. Powrót w tempie wolnym i pod pełną kontrolą ciężaru. Powietrze nabieramy przed rozpoczęciem prostowania, wypuszczamy je, gdy kończymy prostowanie nóg.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

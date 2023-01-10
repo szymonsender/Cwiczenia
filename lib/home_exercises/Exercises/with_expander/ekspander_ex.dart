@@ -50,7 +50,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozciąganie gumy za plecami'),
+              child: const Text(
+                'Rozciąganie gumy za plecami',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -75,7 +80,11 @@ class _EkspanderPageState extends State<EkspanderPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Rozciąganie zamocowanego na końcu gumy jednorącz stojąc'),
+                'Rozciąganie zamocowanego na końcu gumy jednorącz stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -100,7 +109,11 @@ class _EkspanderPageState extends State<EkspanderPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Rozciąganie zamocowanego na końcu gumy do brzucha w siadzie'),
+                'Rozciąganie zamocowanego na końcu gumy do brzucha w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -123,7 +136,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie ramienia z gumą stojąc'),
+              child: const Text(
+                'Uginanie ramienia z gumą stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -146,7 +164,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Francuskie wyciskanie jednorącz z gumą'),
+              child: const Text(
+                'Francuskie wyciskanie jednorącz z gumą',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -169,7 +192,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozciąganie gumy przed sobą'),
+              child: const Text(
+                'Rozciąganie gumy przed sobą',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -192,7 +220,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozciąganie gumy nad głową'),
+              child: const Text(
+                'Rozciąganie gumy nad głową',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -215,7 +248,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion w górę w leżeniu z gumą'),
+              child: const Text(
+                'Unoszenie ramion w górę w leżeniu z gumą',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -238,7 +276,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion w górę przodem z gumą'),
+              child: const Text(
+                'Unoszenie ramion w górę przodem z gumą',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -261,7 +304,12 @@ class _EkspanderPageState extends State<EkspanderPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion w górę bokiem z gumą'),
+              child: const Text(
+                'Unoszenie ramion w górę bokiem z gumą',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

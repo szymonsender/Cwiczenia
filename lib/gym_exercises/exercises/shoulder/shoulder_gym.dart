@@ -50,7 +50,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wyciskanie sztangi sprzed głowy'),
+              child: const Text(
+                'Wyciskanie sztangi sprzed głowy',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -73,7 +78,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wyciskanie sztangi zza głowy'),
+              child: const Text(
+                'Wyciskanie sztangi zza głowy',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -96,7 +106,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wyciskanie sztangielek'),
+              child: const Text(
+                'Wyciskanie sztangielek',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -118,7 +133,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Arnoldki'),
+              child: const Text(
+                'Arnoldki',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -141,7 +161,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie sztangielek bokiem w górę'),
+              child: const Text(
+                'Unoszenie sztangielek bokiem w górę',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -164,7 +189,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie sztangielek w opadzie tułowia'),
+              child: const Text(
+                'Unoszenie sztangielek w opadzie tułowia',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -187,7 +217,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Podciąganie sztangi wzdłuż tułowia'),
+              child: const Text(
+                'Podciąganie sztangi wzdłuż tułowia',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -210,7 +245,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Podciąganie sztangielek wzdłuż tułowia'),
+              child: const Text(
+                'Podciąganie sztangielek wzdłuż tułowia',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -233,7 +273,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion w przód ze sztangą'),
+              child: const Text(
+                'Unoszenie ramion w przód ze sztangą',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -256,7 +301,12 @@ class _ShoulderGymPageState extends State<ShoulderGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie ramion w przód ze sztangielkami'),
+              child: const Text(
+                'Unoszenie ramion w przód ze sztangielkami',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

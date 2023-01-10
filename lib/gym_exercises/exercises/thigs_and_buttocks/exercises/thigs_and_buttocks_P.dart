@@ -29,7 +29,7 @@ class _ThigsButtPGymPageState extends State<ThigsButtPGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy w rozkroku nieco mniejszym od szerokości barków. Nogi minimalnie ugięte w kolanach-zupełnie proste nogi łatwo ulegają kontuzjom -szczególnie kolana. Uginamy się w pasie, przy jednoczesnym wygięciu do wewnątrz dolnego odcinka grzbietu. Staramy się, by sztanga prowadzona była przez cały czas blisko ciała. Im dalej do przodu wychylona sztanga, tym większe naprężenia w dolnych partiach grzbietu. Zalecane jest używanie pasa treningowego podczas wykonywania tego ćwiczenia. Dla lepszego rozciągnięcia mięsni grzbietu i ud możemy zastosować podkładkę pod nogi, co zwiększa zakres ruchu. Ćwiczenie można wykonać również przy pomocy suwnicy Smitha. Bardzo dobre ćwiczenie dla tych, którzy dolne mięśnie grzbietu trenują na jednej sesji z mięśniami ud (szczególnie dwugłowymi).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

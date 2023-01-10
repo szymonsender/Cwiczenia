@@ -29,7 +29,7 @@ class _ShoulderStretchPageState extends State<ShoulderStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy w lekkim rozkroku, jedną rękę prostujemy przed siebie równolegle do podłogi, drugą chwytamy się(podchwytem) za łokieć wyprostowanej ręki i z w tej pozycji przyciągamy do siebie wyprostowaną rękę, pilnując jednocześnie, by pozostawała ona przez cały czas w pozycji równoległej do podłogi.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _ShoulderStretchPageState extends State<ShoulderStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.5',

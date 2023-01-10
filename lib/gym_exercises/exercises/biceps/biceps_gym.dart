@@ -53,8 +53,12 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child:
-                  const Text('Uginanie ramion ze sztangą stiojąc (podchwytem)'),
+              child: const Text(
+                'Uginanie ramion ze sztangą stiojąc (podchwytem)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -79,7 +83,11 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Uginanie ramion ze sztangielkami stojąc (podchwytem)'),
+                'Uginanie ramion ze sztangielkami stojąc (podchwytem)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -102,7 +110,12 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie ramion ze sztangielkami stojąc'),
+              child: const Text(
+                'Uginanie ramion ze sztangielkami stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -125,7 +138,12 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie ramion ze sztangą na "modlitewniku"'),
+              child: const Text(
+                'Uginanie ramion ze sztangą na "modlitewniku"',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -150,7 +168,11 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Uginanie ramienia ze sztangielką na "modlitewniku"'),
+                'Uginanie ramienia ze sztangielką na "modlitewniku"',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -175,7 +197,11 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Uginanie ramion ze sztangielkami w siadzie na ławce skośnej'),
+                'Uginanie ramion ze sztangielkami w siadzie na ławce skośnej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -200,7 +226,11 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Uginanie ramienia ze sztangielką w siadze - w podporze o kolano'),
+                'Uginanie ramienia ze sztangielką w siadze - w podporze o kolano',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -225,7 +255,11 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Uginanie ramion podchwytem stojąc - z rączką wyciągu'),
+                'Uginanie ramion podchwytem stojąc - z rączką wyciągu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -248,7 +282,12 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie ramion ze sztangą nachwytem stojąc'),
+              child: const Text(
+                'Uginanie ramion ze sztangą nachwytem stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -273,7 +312,11 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Uginanie ramion ze sztangą nachwytem na "modlitewniku"'),
+                'Uginanie ramion ze sztangą nachwytem na "modlitewniku"',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -296,7 +339,12 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie nadgarstków podchwytem w siadzie'),
+              child: const Text(
+                'Uginanie nadgarstków podchwytem w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -319,7 +367,12 @@ class _BicepsGymPageState extends State<BicepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Uginanie nadgarstków nachwytem w siadzie'),
+              child: const Text(
+                'Uginanie nadgarstków nachwytem w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

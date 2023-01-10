@@ -48,7 +48,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni naramiennych'),
+              child: const Text(
+                'Trening mięśni naramiennych',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -71,7 +76,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni klatki piersiowej'),
+              child: const Text(
+                'Trening mięśni klatki piersiowej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -93,7 +103,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni grzbietu'),
+              child: const Text(
+                'Trening mięśni grzbietu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -116,7 +131,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni nóg i mięśni pośladkowych'),
+              child: const Text(
+                'Trening mięśni nóg i mięśni pośladkowych',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -139,7 +159,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni podudzi (łydek i piszczeli)'),
+              child: const Text(
+                'Trening mięśni podudzi (łydek i piszczeli)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -161,7 +186,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Trening mięśni brzucha'),
+              child: const Text(
+                'Trening mięśni brzucha',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -186,7 +216,11 @@ class _GymPageState extends State<GymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Trening mięśni dwugłowych ramion (bicepsów), mięśni ramiennych oraz przedramion'),
+                'Trening mięśni dwugłowych ramion (bicepsów), mięśni ramiennych oraz przedramion',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -209,8 +243,12 @@ class _GymPageState extends State<GymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child:
-                  const Text('Trening mięśni trójgłowych ramion (tricepsów)'),
+              child: const Text(
+                'Trening mięśni trójgłowych ramion (tricepsów)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

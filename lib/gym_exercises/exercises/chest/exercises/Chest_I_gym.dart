@@ -29,7 +29,7 @@ class _ChestIGymPageState extends State<ChestIGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Aby ćwiczenie to angażowało głównie mięśnie piersiowe, a dopiero w drugim stopniu trójgłowe ramion, należy prowadzić łokcie możliwie najdalej na boki od tułowia i koncentrować się na pracy mięsni klatki, a nie ramion. Pozycja na ławce i oddychanie, jak przy wyciskaniu w szerokim uchwycie. Uchwyt na szerokość barków lub odrobinę węższy. Ćwiczenie można wykonywać również na suwnicy Smitha.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

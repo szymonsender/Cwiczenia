@@ -29,7 +29,7 @@ class _CalvesEGymPageState extends State<CalvesEGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jest to, jakby odwrotna wersja wspięć na Hack-maszynie- odwrotna jest pozycja- głowa znajduje się niżej nóg. Pozycja wyjściowa to siad na siedzisku maszyny/suwnicy, plecy oparte, nogi wyprostowane w kolanach, stopy dotykają do płaszczyzny maszyny/suwnicy tylko palcami i stawami łączącymi je ze sródstopiem, mięśnie łydek rozciągnięte maksymalnie. Z tej pozycji wypychamy ciężar siłą mięsni łydek.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _WithoutEqAPageState extends State<WithoutEqAPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jest to ćwiczenie podobne do przysiadów z obciążeniem-jedyną różnicą(poza brakiem obciążenia) jest ułożenie ramion-są wyprostowane do przodu, równolegle do podłogi. Można oczywiście, jeżeli ktoś jest przyzwyczajony do przysiadów ze sztangą na barkach i taka technika najlepiej mu wychodzi-trzymać ramiona w sposób pozorujący trzymanie gryfu sztangi. Można również, dla lepszej równowagi użyć np. kija od szczotki.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -53,7 +53,7 @@ class _WithoutEqAPageState extends State<WithoutEqAPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'W celu zwiększenia stopnia trudności ćwiczenie to można wykonywać na jednej nodze. Oddech bierzemy przed rozpoczęciem przysiady-powietrze wypuszczamy, gdy podnosimy się z przysiadu.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

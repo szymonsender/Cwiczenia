@@ -60,7 +60,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Podciąganie na drążku szerokim chwytem (nachwyt)'),
+                'Podciąganie na drążku szerokim chwytem (nachwyt)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -83,7 +87,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Podciąganie na drążku w uchwycie neutralnym'),
+              child: const Text(
+                'Podciąganie na drążku w uchwycie neutralnym',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -106,7 +115,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Podciąganie na drążku podchwytem'),
+              child: const Text(
+                'Podciąganie na drążku podchwytem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -129,7 +143,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Podciąganie sztangi w opadzie (wiosłowanie)'),
+              child: const Text(
+                'Podciąganie sztangi w opadzie (wiosłowanie)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -153,8 +172,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child:
-                  const Text('Podciąganie sztangielki w opadzie (wiosłowanie)'),
+              child: const Text(
+                'Podciąganie sztangielki w opadzie (wiosłowanie)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -177,7 +200,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Podciąganie końca sztangi w opadzie'),
+              child: const Text(
+                'Podciąganie końca sztangi w opadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -202,7 +230,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Przyciąganie linki wyciągu dolnego w siadzie płaskim'),
+                'Przyciąganie linki wyciągu dolnego w siadzie płaskim',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -225,7 +257,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przyciąganie linki wyciągu górnego w siadzie'),
+              child: const Text(
+                'Przyciąganie linki wyciągu górnego w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -250,7 +287,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Ściąganie drążka/rączki wyciągu górnego w siadzie, szerokim uchwytem (nachwyt)'),
+                'Ściąganie drążka/rączki wyciągu górnego w siadzie, szerokim uchwytem (nachwyt)',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -273,7 +314,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Ściąganie drążka/rączki w siadze podchwytem'),
+              child: const Text(
+                'Ściąganie drążka/rączki w siadze podchwytem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -298,7 +344,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Ściąganie drążka/rączki wyciągu górnego w siadzie, uchyt neutralny'),
+                'Ściąganie drążka/rączki wyciągu górnego w siadzie, uchyt neutralny',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -323,7 +373,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Przenoszenie sztangi w leżeniu na ławce poziomej'),
+                'Przenoszenie sztangi w leżeniu na ławce poziomej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -348,7 +402,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Podciąganie (wiosłowanie) w leżeniu na ławeczce poziomej'),
+                'Podciąganie (wiosłowanie) w leżeniu na ławeczce poziomej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -373,7 +431,11 @@ class _BackGymPageState extends State<BackGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Skłony ze sztangą trzymaną na karku (tzw. "dzień dobry")'),
+                'Skłony ze sztangą trzymaną na karku (tzw. "dzień dobry")',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -396,7 +458,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie tułowia z opadu'),
+              child: const Text(
+                'Unoszenie tułowia z opadu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -418,7 +485,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Martwy ciąg'),
+              child: const Text(
+                'Martwy ciąg',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -441,7 +513,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Martwy ciąg na prostych nogach'),
+              child: const Text(
+                'Martwy ciąg na prostych nogach',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -464,7 +541,12 @@ class _BackGymPageState extends State<BackGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wznosy barków "sztrugsy"'),
+              child: const Text(
+                'Wznosy barków "sztrugsy"',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

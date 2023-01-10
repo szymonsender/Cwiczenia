@@ -29,7 +29,7 @@ class _BellyBGymPageState extends State<BellyBGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Wykonanie jak w ćwiczeniu poprzednim- płasko, ale pozycja wyjściowa jest głową w dół na ławce skośnej. Dla lepszego zaangażowania mięśni skośnych brzucha w końcowej fazie unoszenia tułowia można wykonywać nim skręty. Jest to jednak wersja trudniejsza i bardziej narażająca na ewentualne kontuzje (mocniej obciąża dolne partie grzbietu).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

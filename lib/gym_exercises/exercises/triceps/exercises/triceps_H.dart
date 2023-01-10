@@ -29,7 +29,7 @@ class _TricepsHGymPageState extends State<TricepsHGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Bardzo dobre ćwiczenie izolowane, podobne do poprzedniego, z tą różnicą, że mamy dodatkowe oparcie dla łokci (w postaci ławeczki). Pozwala ono na lepszą koncentrację i wyizolowanie pracy tricepsów. Chwytamy w pozycji klęcząc, tułów pochylony do przodu, drążek/rączkę wyciągu górnego, umieszczonego za nami. Łokcie opieramy o ławkę i prostujemy ramiona, pracują tylko stawy łokciowe, w ruchu pozostają jedynie przedramiona. Pełen zakres ruchu- od maksymalnego zgięcia, do pełnego wyprostu ramion. Ruch odbywa się w płaszczyźnie poziomej po lekkim łuku.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

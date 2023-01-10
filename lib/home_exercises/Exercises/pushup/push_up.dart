@@ -44,7 +44,12 @@ class _PushUpPageState extends State<PushUpPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki klasyczne'),
+              child: const Text(
+                'Pompki klasyczne',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -67,7 +72,12 @@ class _PushUpPageState extends State<PushUpPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki na krzesłach/poręczach'),
+              child: const Text(
+                'Pompki na krzesłach/poręczach',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -89,7 +99,12 @@ class _PushUpPageState extends State<PushUpPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki przy ścianie'),
+              child: const Text(
+                'Pompki przy ścianie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -112,7 +127,12 @@ class _PushUpPageState extends State<PushUpPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki na podwyższeniu'),
+              child: const Text(
+                'Pompki na podwyższeniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

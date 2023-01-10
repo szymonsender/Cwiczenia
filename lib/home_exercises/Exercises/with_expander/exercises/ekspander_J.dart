@@ -29,7 +29,7 @@ class _EkspanderJPageState extends State<EkspanderJPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to wykonujemy przy użyciu dwóch gum(ćwiczymy wtedy obie strony jednocześnie), lub jednej(trenowana jest wtedy każda strona po kolei). Stajemy w lekkim rozkroku, końce gum(lub gumy-jeżeli dysponujemy tylko jedną) zaczepione pod stopami(lub o stabilny punkt-ciężar). Ramiona wyprostowane lub lekko ugięte w łokciach(lekkie ugięcie zmniejszy napięcie w stawach łokciowych- zapobiegnie kontuzjom), opuszczone wzdłuż tułowia, koniec/końce gumy/gum w dłoniach/i. Z tej pozycji wykonujemy unoszenie ramion w górę bokiem do momentu, gdy dłonie znajdą się nieco powyżej linii barków. W szczytowym momencie ruch możemy zatrzymać na chwilę dla lepszego napięcia mięśni. Opuszczanie wolne i pod pełną kontrolą.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

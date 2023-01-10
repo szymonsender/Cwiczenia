@@ -29,7 +29,7 @@ class _BackJGymPageState extends State<BackJGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Podobne ćwiczenie, jak poprzednie. Różny jest uchwyt. Tutaj podchwyt-atakuje on pod innym kątem mięsnie, angażuje szczególnie dolną i środkową część mięsni najszerszych i obłych.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

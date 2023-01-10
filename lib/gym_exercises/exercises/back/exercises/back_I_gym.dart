@@ -29,7 +29,7 @@ class _BackIGymPageState extends State<BackIGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Siadamy na siodełku pod wyciągiem górnym, chwytamy rączkę/drążek nachwytem na szerokość taką, jak przy podciąganiu na drążku i przyciągamy ją do klatki lub karku, w zależności od wersji, jaką wykonujemy. Obie wersje angażują te same mięsnie, ale pod nieco innymi kątami. Łopatki ściągamy do siebie, jednocześnie łokcie przywodząc do tyłu. Przy przyciąganiu do klatki tułów nieco odchylony do tyłu, a przy drugiej wersji (do karku)-tułów w pionie. W dolnym położeniu przytrzymujemy drążek na chwilę dla lepszego napięcia mięsni. Opuszczanie ciężaru kontrolowane. Stałe napięcie w ćwiczonych mięśniach i „czucie” ich pracy.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

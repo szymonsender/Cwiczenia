@@ -47,7 +47,12 @@ class _CalvesGymPageState extends State<CalvesGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wspięcia na palce w staniu'),
+              child: const Text(
+                'Wspięcia na palce w staniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -70,7 +75,12 @@ class _CalvesGymPageState extends State<CalvesGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wspięcia na palce w siadzie'),
+              child: const Text(
+                'Wspięcia na palce w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -92,7 +102,12 @@ class _CalvesGymPageState extends State<CalvesGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Ośle wspięcia'),
+              child: const Text(
+                'Ośle wspięcia',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -115,7 +130,12 @@ class _CalvesGymPageState extends State<CalvesGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wspięcia na palce na "hack-maszynie"'),
+              child: const Text(
+                'Wspięcia na palce na "hack-maszynie"',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -140,7 +160,11 @@ class _CalvesGymPageState extends State<CalvesGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wypychanie ciężaru na maszynie/suwnicy palcami nóg'),
+                'Wypychanie ciężaru na maszynie/suwnicy palcami nóg',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -163,7 +187,12 @@ class _CalvesGymPageState extends State<CalvesGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Odwrotne wspięcia w staniu'),
+              child: const Text(
+                'Odwrotne wspięcia w staniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

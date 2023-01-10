@@ -29,7 +29,7 @@ class _BackSGymPageState extends State<BackSGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy w rozkroku na szerokość barków lub nieco węższym, nogi wyprostowane, ale nie zblokowane, głowa prosto, ramiona ściągnięte do tyłu, klatka wypięta do przodu. Ćwiczenie można wykonywać zarówno ze sztangą, jak i ze sztangielkami. Trenując sztangą można użyć większego ciężaru, ale ruch z użyciem sztangielek jest bardziej naturalny. Chwytamy sztangielki i unosimy barki możliwie jak najwyżej ściągając je jednocześnie do tyłu. W najwyższym punkcie wstrzymujemy ruch przez chwilę dla lepszego napięcia mięśni i opuszczamy barki do pozycji wyjściowej. Po chwili powtarzamy ruch.. Wdech robimy w momencie rozpoczęcia ruchu, powietrze wydychamy w najwyższym punkcie. Ćwiczenie można również wykonywać za pomocą wyciągu dolnego, na specjalnej maszynie,za pomocą suwnicy Smitha, lub w pozycji siedzącej.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _ThigsButtKGymPageState extends State<ThigsButtKGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Do ćwiczenia potrzebna będzie, poza obciążeniem mocna i stabilna ławka (lub wysoki podest).Stajemy w lekkim rozkroku, nieco węższym, niż barki, przed ławką (podestem) -pozycja, jak do przysiadów. Jako ciężar stosujemy sztangę trzymaną na barkach z tyłu, lub sztangielki trzymane w dłoniach, opuszczone luźno obok tułowia. Z tej pozycji wykonujemy wstępowanie na jednej nodze na ławkę, po czym dostawiamy drugą nogę i przez moment stoimy na ławce na wyprostowanych nogach i przy napiętych mięśniach. Powrotny ruch jest odwrotnością wstępowania-zstępowaniem. Powietrza nabieramy przed rozpoczęciem wstępowania na ławkę -wypuszczamy, gdy obie nogi znajdą się na ławce. Ważne jest, by każde powtórzenie zaczynać od innej nogi (raz lewą, raz prawą), gdyż właśnie noga, która wstępujemy na ławkę jako pierwszą, jest trenowana.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _TricepsIGymPageState extends State<TricepsIGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Rozstaw poręczy powinien tylko nieznacznie przekraczać szerokość barków. Chwytamy poręcze chwytem neutralnym, ręce wyprostowane, klatka piersiowa wypchnięta do przodu, nogi lekko ugięte w kolanach. Opuszczanie i unoszenie tułowia odbywa się poprzez uginanie rąk w stawach łokciowych. Przez cały czas trwania ćwiczenia łokcie powinny znajdować się jak najbliżej tułowia. Tułów wyprostowany w pionie- odchylanie go w przód zmniejsza pracę mięśni trójgłowych, a zwiększa zaangażowanie mięśni klatki piersiowej. Zakres ruchu: od maksymalnego ugięcia do pełnego wyprostu ramion. Tempo umiarkowane, bez zrywów i zbyt szybkiego opuszczania. Ćwiczenie można również wykonywać z użyciem dodatkowego obciążenia (kiedy dochodzimy do dużej liczby prawidłowo wykonanych powtórzeń w jednej serii), ale ta wersja jest przeznaczona tylko dla bardziej zaawansowanych kulturystów.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

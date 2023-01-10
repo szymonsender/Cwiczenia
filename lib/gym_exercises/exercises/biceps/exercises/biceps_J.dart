@@ -29,7 +29,7 @@ class _BicepsJGymPageState extends State<BicepsJGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Pozycja, jak podczas ćwiczenia podchwytem. Wykonanie technicznie niewiele różni się od ćwiczenia wykonywanego podchwytem. Ćwiczenie bardziej angażuje mięsni ramienne i przedramion, a mniej dwugłowe ramion. Jednak również wpływa na część przyłokciową bicepsów.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _ThigsButtOGymPageState extends State<ThigsButtOGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy przy wyciągu dolnym, zakładamy na nogę (na wysokości kostki) specjalną opaskę połączoną z linką wyciągu. Stajemy w takiej odległości od wyciągu, by ruch zaczynał się w momencie, gdy ćwiczona noga odchylona jest od pionu w kierunku wyciągu. Z tej pozycji wykonujemy odwodzenie (nie wymachy, jak to ćwiczenie nazywane jest często) nogi w kierunku przeciwnym do wyciągu. W końcowym momencie (maksymalne wychylenie nogi w górę) można zatrzymać ruch na moment, po czym wracamy do pozycji wyjściowej.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

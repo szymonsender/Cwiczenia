@@ -29,7 +29,7 @@ class _BellyGGymPageState extends State<BellyGGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Siadamy na ławce, tułów wyprostowany (najlepiej z podporą pod plecy), za plecami mamy wyciąg górny (zamiast rączki zaczepiona lina z węzłami na końcach), chwytamy koniec liny (w ten sposób, że otacza nam z tyłu kark), z tej pozycji wykonujemy skłony w przód na taka głębokość, by nie odrywać dolnego odcinka pleców od oparcia, starając się przez cały czas utrzymać dolny odcinek grzbietu wyprostowany. Powrotny ruch kontrolowany i w wolnym tempie. Bardzo podobne działanie ma ćwiczenie wykonane na specjalnej maszynie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

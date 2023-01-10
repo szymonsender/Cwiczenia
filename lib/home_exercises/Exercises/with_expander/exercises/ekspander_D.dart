@@ -29,7 +29,7 @@ class _EkspanderDPageState extends State<EkspanderDPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy w lekkim wykroku(jedna noga lekko wysunięta) o nią zahaczamy jeden koniec gumy, drugi zaś chwytamy w dłoń i uginamy ramię, jak w ćwiczeniu ze sztangielką lub rączką wyciągu. Druga ręka zwisa swobodnie obok tułowia. Ruch miarowy, tempo wolne.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

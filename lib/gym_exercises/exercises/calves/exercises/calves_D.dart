@@ -29,7 +29,7 @@ class _CalvesDGymPageState extends State<CalvesDGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to można wykonywać w pozycji tyłem do maszyny, jak również przodem do maszyny (o ile oczywiście dysponujemy maszyną ze specjalnymi oparciami na barki). Wskazane jest, jak w pozostałych ćwiczeniach na mięsnie łydek, grubej podkładki pod palce.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

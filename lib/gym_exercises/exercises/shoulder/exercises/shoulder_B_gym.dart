@@ -29,7 +29,7 @@ class _ShoulderBGymPageState extends State<ShoulderBGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to, podobnie jak poprzednie można wykonywać zarówno w pozycji stojącej, jak i siedzącej. Podobnie, jak w ćwiczeniu poprzednim można użyć suwnicy Smitha lub maszyn. Podczas całego zakresu ruchu sztangi należy kontrolować ciężar-ruch powinien być płynny, sztangę opuszczamy aż do linii barków (druga wersja zakłada opuszczanie sztangi tylko do linii uszu, co wydaje się mniej niebezpieczne dla samych stawów barkowych i pozwala na lepsze napięcie mięśni), po czym wyciskamy sztangę zatrzymując ruch zanim ramiona się wyprostują (aby utrzymać stałe napięcie ćwiczonych mięśni).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _CalvesFGymPageState extends State<CalvesFGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie podobne do wspięć na palce- różnica jest taka, że podkładki są pod piętami, a unosimy nie pięty, lecz śródstopia nóg. Pozycja taka, jak przy wspięciach na palce, ale nie rozciągamy mięśni łydek w początkowej fazie- tylko mięśnie piszczelowe. Ćwiczenie to można wykonywać ze sztangą, sztangielką lub na specjalnej maszynie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

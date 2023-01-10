@@ -29,7 +29,7 @@ class _BicepsGGymPageState extends State<BicepsGGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jest to ćwiczenie modelujące kształt bicepsów- ich wierzchołek. Wymaga ono dużej koncentracji w czasie wykonywania. Siadamy na ławce lub krześle, pochylamy się lekko do przodu. Chwytamy sztangielkę w dłoń i opieramy łokieć o wewnętrzną część uda. Ruch powinien mieć wolne tempo (zarówno podczas unoszenia i opuszczania)- jest to ćwiczenie koncentryczne i technika jest w nim ważniejsza od wielkości ciężaru. Można również w tym ćwiczeniu stosować supinację nadgarstka. Ramiona „zamykamy” do końca, napinając maksymalnie mięsień. Prostujemy ramię (jak w innych ćwiczeniach na mięśnie dwugłowe) tylko do momentu pełnego rozciągnięcia bicepsów, nie do pełnego zakresu ruchu w stawie łokciowym.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

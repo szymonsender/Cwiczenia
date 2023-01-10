@@ -55,7 +55,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie klatki piersiowej'),
+              child: const Text(
+                'Mięśnie klatki piersiowej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -78,7 +83,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie trójgłowe ramion'),
+              child: const Text(
+                'Mięśnie trójgłowe ramion',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -101,7 +111,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie dwugłowe ramion'),
+              child: const Text(
+                'Mięśnie dwugłowe ramion',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -124,7 +139,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie przedramion'),
+              child: const Text(
+                'Mięśnie przedramion',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -147,7 +167,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie obręczy barkowej'),
+              child: const Text(
+                'Mięśnie obręczy barkowej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -170,7 +195,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie dwugłowe ud'),
+              child: const Text(
+                'Mięśnie dwugłowe ud',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -193,7 +223,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie czworogłowe ud'),
+              child: const Text(
+                'Mięśnie czworogłowe ud',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -216,7 +251,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie wewnętrzne ud'),
+              child: const Text(
+                'Mięśnie wewnętrzne ud',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -238,7 +278,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie łydek'),
+              child: const Text(
+                'Mięśnie łydek',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -261,7 +306,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie piszczelowe'),
+              child: const Text(
+                'Mięśnie piszczelowe',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -284,7 +334,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie najszersze grzbietu'),
+              child: const Text(
+                'Mięśnie najszersze grzbietu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -306,7 +361,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie brzucha'),
+              child: const Text(
+                'Mięśnie brzucha',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -329,7 +389,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie dolnego grzbietu'),
+              child: const Text(
+                'Mięśnie dolnego grzbietu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -352,7 +417,12 @@ class _StretchingPageState extends State<StretchingPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Mięśnie pośladkowe i dolnego grzbietu'),
+              child: const Text(
+                'Mięśnie pośladkowe i dolnego grzbietu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

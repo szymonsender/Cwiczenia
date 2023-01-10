@@ -29,7 +29,7 @@ class _EkspanderGPageState extends State<EkspanderGPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Pozycja, jak w ćwiczeniu poprzednim, z tą różnicą, że ramiona wyprostowane są nie przed klatką, a nad głową. Technika również, jak w ćwiczeniu poprzednim. Ruch kończymy, gdy ramiona znajda się w pozycji równoległej do podłogi. W szczytowym momencie ruch możemy zatrzymać na chwilę dla lepszego napięcia mięśni. Powrót do pozycji wyjściowej wolny i pod pełną kontrolą.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

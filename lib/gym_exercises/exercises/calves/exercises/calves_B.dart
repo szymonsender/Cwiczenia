@@ -29,7 +29,7 @@ class _CalvesBGymPageState extends State<CalvesBGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Podobnie, jak w ćwiczeniu stojąc -wskazane jest użycie grubej podkładki pod palce -dla zwiększenia zakresu ruchu. Pozycja siedząca, plecy wyprostowane, ramiona trzymają ciężar, który umiejscowiony jest na kolanach, rozstaw stóp 25-30 cm - mięśnie łydek rozciągnięte maksymalnie. Z takiej pozycji wykonujemy wspiecia. Ruch powinien być wolny i dokładny, ze stałym „czuciem” pracy mięśni. Należy unikać odbijania się pięt od podłogi.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

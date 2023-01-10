@@ -29,7 +29,7 @@ class _BicepsEGymPageState extends State<BicepsEGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jak w poprzednim ćwiczeniu ze sztangą, z tą różnicą, że sztangę zastępujemy sztangielkami. Można trenować osobno lub jednocześnie oba ramiona.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

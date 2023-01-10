@@ -29,7 +29,7 @@ class _BellyJGymPageState extends State<BellyJGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy w lekkim rozkroku (na szerokość barków, lub nieco szerzej), tułów wyprostowany, w jedną rękę chwytamy sztangielkę, drugą zakładamy sobie na głowę (dłonią). Z tej pozycji wykonujemy skłon w kierunku wolnej ręki, napinając mięśnie skośne brzucha. Oddech bierzemy w momencie rozpoczęcia ruchu, wypuszczamy powietrze w momencie maksymalnego skłonu. Powrót do pozycji wyjściowej może być z przekroczeniem linii pionu (tułowia)- zwiększa to napięcie mięśni skośnych. Ruch powinien być płynny i w wolnym tempie, bez gwałtownych szarpnięć. Ćwiczenie to można również wykonać przy pomocy wyciągu dolnego- zastępując nim sztangielkę.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -55,8 +55,12 @@ class _ChestGymPageState extends State<ChestGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child:
-                  const Text('Wyciskanie sztangi w leżeniu na ławce poziomej'),
+              child: const Text(
+                'Wyciskanie sztangi w leżeniu na ławce poziomej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -81,7 +85,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie sztangielek w leżeniu na ławce poziomej'),
+                'Wyciskanie sztangielek w leżeniu na ławce poziomej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -106,7 +114,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie sztangi w leżeniu na ławce skośnej dodatniej'),
+                'Wyciskanie sztangi w leżeniu na ławce skośnej dodatniej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -131,7 +143,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie sztangielek w leżeniu na ławce skośnej dodatniej'),
+                'Wyciskanie sztangielek w leżeniu na ławce skośnej dodatniej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -156,7 +172,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie sztangi w leżeniu na ławce skośnej ujemnej'),
+                'Wyciskanie sztangi w leżeniu na ławce skośnej ujemnej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -181,7 +201,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie sztangielek w leżeniu na ławce skośnej ujemnej'),
+                'Wyciskanie sztangielek w leżeniu na ławce skośnej ujemnej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -206,7 +230,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Rozpiętki ze sztangielkami w leżeniu na ławce poziomej'),
+                'Rozpiętki ze sztangielkami w leżeniu na ławce poziomej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -231,7 +259,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Rozpiętki ze sztangielkami w leżeniu na ławce skośnej dodatniej'),
+                'Rozpiętki ze sztangielkami w leżeniu na ławce skośnej dodatniej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -256,7 +288,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie sztangi w leżeniu na ławce poziomej wąskim chwytem'),
+                'Wyciskanie sztangi w leżeniu na ławce poziomej wąskim chwytem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -281,7 +317,11 @@ class _ChestGymPageState extends State<ChestGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Przenoszenie sztangielki w leżeniu w poprzek ławki poziomej'),
+                'Przenoszenie sztangielki w leżeniu w poprzek ławki poziomej',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -303,7 +343,12 @@ class _ChestGymPageState extends State<ChestGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki na poręczach'),
+              child: const Text(
+                'Pompki na poręczach',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -326,7 +371,12 @@ class _ChestGymPageState extends State<ChestGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Rozpiętki w siadzie na maszynie'),
+              child: const Text(
+                'Rozpiętki w siadzie na maszynie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -349,7 +399,12 @@ class _ChestGymPageState extends State<ChestGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Krzyżowanie linek wyciągu w staniu'),
+              child: const Text(
+                'Krzyżowanie linek wyciągu w staniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -372,7 +427,12 @@ class _ChestGymPageState extends State<ChestGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wyciskania poziome w siadzie na maszynie'),
+              child: const Text(
+                'Wyciskania poziome w siadzie na maszynie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

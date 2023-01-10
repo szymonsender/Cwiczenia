@@ -29,7 +29,7 @@ class _ThigsButtEGymPageState extends State<ThigsButtEGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to można wykonywać zarówno bez obciążenia, jak i z nim. Chwytamy wtedy w jedną rękę krążek i kładziemy go sobie na klatce, drugą ręką podpieramy się dla zachowania równowagi czegoś stabilnego. Ćwiczenie polega na wykonaniu przysiadu z jednoczesnym mocnym odchyleniem tułowia do tyłu i wspięciem na palce stóp połączonym z wypchnięciem kolan do przodu-dla lepszego rozciągnięcia mięśni górnej części ud i zwiększenia poziomu trudności ćwiczenia.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

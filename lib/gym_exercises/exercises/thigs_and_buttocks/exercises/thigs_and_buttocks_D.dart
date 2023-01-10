@@ -29,7 +29,7 @@ class _ThigsButtDGymPageState extends State<ThigsButtDGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy na platformie suwnicy, plecy prosto, w dolnym odcinku wygięte do przodu, rozkrok na szerokość barków, stopy równolegle, w linii bioder lub nieco wysunięte ku przodowi, ale nie na tyle, by biodra odrywały się od powierzchni oparcia. Ramiona ugięte, dłonie na uchwytach suwnicy. Ważne jest, by ciężar był wypychany z pięt-nie z palców stóp. Z tej pozycji opuszczamy się wykonując przysiad do momenty, gdy nasze nogi będą ugięte pod kątem 90 stopni lub nieco mniejszym, ale nie tak głęboko, by utracić napięcie i kontrolę mięśni czworogłowych.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

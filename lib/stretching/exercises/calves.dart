@@ -29,7 +29,7 @@ class _CalvesStretchPageState extends State<CalvesStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Do ćwiczenia jest potrzebna duża podkładka, lub najlepiej schody. Trzymając się dla zachowania równowagi poręczy(lub czegoś stabilnego) wykonujemy na jednej nodze(na przemian)pogłębianie piętą, rozciągając jednocześnie mięśnie łydek( fot.9).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _CalvesStretchPageState extends State<CalvesStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.9',

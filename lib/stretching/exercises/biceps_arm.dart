@@ -29,7 +29,7 @@ class _BicepsStretchPageState extends State<BicepsStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Klękamy na podłodze opierając ramiona o podłogę wewnętrzną stroną dłoni, palcami skierowanymi w naszym kierunku. W tej pozycji prostujemy ramiona w łokciach, rozciągając jednocześnie mięśnie dwugłowe ramion(fot.3). Ćwiczenie to rozciąga również mięśnie wewnętrznej części przedramion(zginacze nadgarstka).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _BicepsStretchPageState extends State<BicepsStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.3',

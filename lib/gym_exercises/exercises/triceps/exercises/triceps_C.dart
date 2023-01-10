@@ -29,7 +29,7 @@ class _TricepsCGymPageState extends State<TricepsCGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Inna wersja poprzedniego ćwiczenia- pozwala na lepszą koncentracje na poszczególnych mięśniach (lewym i prawym tricepsie). Technika jak w ćwiczeniu ze sztangą. Ruch ciężaru pod pełną kontrolą, faza negatywna wolniejsza od unoszenia. Można zastąpić sztangielkę rączką wyciągu dolnego. Ćwiczenie można wykonywać zarówno w pozycji stojącej, jak i siedzącej. Siedząca pozwala na lepszą koncentracje i wyeliminowanie dodatkowych ruchów.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

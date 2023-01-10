@@ -30,7 +30,7 @@ class _WidestBackStretchPageState extends State<WidestBackStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Do tego ćwiczenia jest potrzebny punkt oparcia-może być to krzesło. Splatamy ramiona nad głową łącząc przedramiona ze sobą, chwytając jednocześnie za łokcie od zewnątrz. Tak złączone przedramiona kładziemy na naszej podporze(krześle)jednocześnie klęcząc na kolanach przed krzesłem. Z tej pozycji wykonujemy pogłębianie tułowia, jednocześnie rozciągając mięsnie najszersze grzbietu(fot.11).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -59,7 +59,7 @@ class _WidestBackStretchPageState extends State<WidestBackStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'W drugim ćwiczeniu również potrzebny jest nam stabilny punkt-najlepiej pionowa poręcz lub futryna drzwi. Stajemy w lekkim rozkroku-jedna noga wysunięta, tułów pochylony do przodu, chwytamy się naszej poręczy jedna ręką(druga zwisa luźno)i z tej pozycji staramy się odchylać do tyłu jednocześnie nie puszczając naszego punktu zaparcia rozciągając w tym czasie mięsnie najszersze grzbietu(fot.11a).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -88,7 +88,7 @@ class _WidestBackStretchPageState extends State<WidestBackStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'W trzecim ćwiczeniu stajemy przy ścianie, ramiona wyprostowane i oparte o ścianę na wysokości pasa, tułów pochylony tak, by plecy były w jednej linii z ramionami-równolegle do podłogi. Z tej pozycji pogłębiamy skłon tułowia, jednocześnie utrzymując ramiona w niezmiennym położeniu(fot.11b).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

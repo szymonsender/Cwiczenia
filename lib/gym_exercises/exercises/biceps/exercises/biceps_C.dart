@@ -29,7 +29,7 @@ class _BicepsCGymPageState extends State<BicepsCGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie z pozoru podobne do poprzedniego, jednak z zasadniczą różnicą- ułożenie nadgarstków jest neutralne i takie pozostaje przez całe ćwiczenie. Palce dłoni skierowane są do wewnątrz (kciukiem do góry). Ważne jest również utrzymanie stałej pozycji łokci przez cały czas trwania ćwiczenia. Ruch powrotny powinien być wolny i kontrolowany. Ruch można wykonywać na przemian- raz jedna ręka, raz druga (po 1 powtórzeniu), obiema rękami jednocześnie, lub opuszczając jedną rękę- jednocześnie unosząc drugą. Samemu trzeba wybrać, która wersja jest dla nas najefektywniejsza. Jednak w tym ćwiczeniu najlepsza, pod względem koncentracji wydaje się być wersja pojedynczych ruchów każdej ręki na przemian.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

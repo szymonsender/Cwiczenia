@@ -29,7 +29,7 @@ class _ForearmStretchPageState extends State<ForearmStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stojąc w lekkim rozkroku, dłonią jednej ręki chwytamy za palce drugiej(wyprostowanej). W tej pozycji przyciągamy palce do siebie odginając jednocześnie dłoń w nadgarstku do góry.(fot.4).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _ForearmStretchPageState extends State<ForearmStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.4',
@@ -59,7 +58,7 @@ class _ForearmStretchPageState extends State<ForearmStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Drugie ćwiczenie jest podobne: stojąc w lekkim rozkroku łączymy ręce ze sobą tak, by stykały się całymi wewnętrznymi stronami i palcami(palce skierowane w naszym kierunku).Z tej pozycji staramy się prostować ramiona w łokciach, jednocześnie rozciągając mięśnie przedramion.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -73,7 +72,6 @@ class _ForearmStretchPageState extends State<ForearmStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.4a',

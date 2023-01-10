@@ -29,7 +29,7 @@ class _BicepsLGymPageState extends State<BicepsLGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Pozycja i technika, jak w ćwiczeniu poprzednim (podchwytem)- różnica polega na uchwycie sztangi- w tym ćwiczeniu stosujemy nachwyt i raczej nie pozwalamy na „zjechanie” sztangi na końce palców. Zginając nadgarstki opuszczamy sztangę tak mocno, jak pozwala na to zakres ruchu, po czym unosimy siłą nadgarstków sztangę tak wysoko, jak tylko damy radę. W ruchu pozostaje jedynie nadgarstek.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -29,7 +29,7 @@ class _BellyFGymPageState extends State<BellyFGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się na ławce lub materacu płasko, nogi wyprostowane, ramiona uniesione do góry nad głową (dla lepszej stabilizacji można chwycić nimi za jakiś punkt oparcia- np. ławkę) i z tej pozycji podciągamy kolana do klatki piersiowej. Ćwiczenie to można również wykonywać z dodatkowym obciążeniem w postaci linki wyciągu zahaczonej o nogi.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

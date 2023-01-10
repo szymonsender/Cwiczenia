@@ -29,7 +29,7 @@ class _ThigsButtGGymPageState extends State<ThigsButtGGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to można wykonywać na różnego rodzaju suwnicach i maszynach, pod różnymi kątami -zmiana ułożenia ciała w ćwiczeniu powoduje, że atakujemy mięśnie pod różnymi kątami -bardziej wszechstronnie. Bez względu na rodzaj maszyny i kat ułożenia ciała, obowiązują wspólne zasady: siadamy na siedzisku, opierając stopy na platformie maszyny, ich rozstaw ok. szerokości ramion-całe stopy przylegają do platformy, nogi wyprostowane w kolanach, ale nie zblokowane -z tej pozycji nabierając powietrza rozpoczynamy powtórzenie. Trenujemy w tempie wolnym, pełna kontrola ruchu i ciężaru przez cały czas, ruch kończymy w momencie, gdy nogi uginają w kolanach się pod kątem 90 stopni lub nieco mniejszym, z tego punktu wypychamy ciężar, jednocześnie wypuszczając powietrze.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

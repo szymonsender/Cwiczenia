@@ -29,7 +29,7 @@ class _ThigsButtMGymPageState extends State<ThigsButtMGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie wykonujemy na specjalnej maszynie siedząc. Plecy oparte o oparcie maszyny, nogi ugięte w kolanach pod kątem prostym, oparte o poduszki maszyny. Z tej pozycji wykonujemy ruch łączenie ściągania nóg do wewnątrz, jak w celu złączenia ich ze sobą, pokonując jednocześnie opór maszyny. W pozycji maksymalnego ściągnięcia nóg zatrzymujemy ruch przez chwilę dla lepszego napięcia mięśni. Po czym powracamy do pozycji wyjściowej. Powrót w tempie wolnym i pod pełną kontrolą ciężaru. Powietrze nabieramy przed rozpoczęciem ściągania, wypuszczamy je, gdy kończymy ściąganie -nogi są w położeniu najbliższym sobie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

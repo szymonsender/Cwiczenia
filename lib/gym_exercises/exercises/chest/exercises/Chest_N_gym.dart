@@ -29,7 +29,7 @@ class _ChestNGymPageState extends State<ChestNGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to można wykonywać na wiele sposobów, a uzależnione jest to od rodzaju maszyny i ustawienia oparcia. I tak przykładowo ćwiczenie zaprezentowane poniżej. Jest ćwiczeniem bardzo zbliżonym do wyciskania sztangi na ławce poziomej-zaangażowana w nim jest głównie środkowa część mięsni piersiowych, druga przedstawiona wersja imituje ruch wyciskania sztangi na ławce skośnej dodatniej(głową do góry).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

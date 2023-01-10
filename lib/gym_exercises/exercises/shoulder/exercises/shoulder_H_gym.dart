@@ -29,7 +29,7 @@ class _ShoulderHGymPageState extends State<ShoulderHGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'W pozycji stojącej, rozkrok nieco szerszy od rozstawu barków, uchwyt na szerokość ramion (inna wersja przewiduje szerszy rozstaw dłoni, nawet szerszy niż rozstaw barków-zaangażowane są wtedy bardziej boczne aktony mięsni naramiennych, a ruch kończymy na wysokości klatki piersiowej). Ruchem wolnym i kontrolowanym unosimy sztangielki w kierunku brody, starając się aby przemieszczały się możliwie najbliżej tułowia. Łokcie przez cały czas trzymamy powyżej sztangielek. Ruch unoszenia kończymy, gdy sztangielki znajdą się na wysokości klatki piersiowej (lub staramy się podciągnąć sztangielki aż do brody), opuszczamy również powoli, unikamy odchylania i bujania tułowia. Koncentrujemy się na unoszeniu łokci, a sztangielki podążą za nimi.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

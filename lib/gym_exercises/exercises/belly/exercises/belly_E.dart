@@ -29,7 +29,7 @@ class _BellyEGymPageState extends State<BellyEGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy plecami do specjalnej podpory, ramiona opieramy na poziomych poprzeczkach podpory, dłońmi chwytamy uchwyty, w tym momencie znajdujemy się już ponad podłogą. Z tej pozycji unosimy nogi w górę, w kierunku klatki piersiowej, jednocześnie uginając je w kolanach. Technika podobna, jak w unoszeniu nóg w zwisie, jednak mięśnie zaangażowane pod innym kątem. W tym ćwiczeniu również należy pamiętać o zachowaniu pełnego zakresu ruchu - zmniejszanie go prowadzi do skracania mięśni. Tempo ruchu umiarkowane, bez zrywów. Im mniejsze ugięcie nóg w kolanach, tym większy stopień trudności ćwiczenia, większe zaangażowanie mięśni zginaczy bioder (przy zmniejszeniu pracy mięsni brzucha) i większe napięcia w dolnym odcinku grzbietu.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

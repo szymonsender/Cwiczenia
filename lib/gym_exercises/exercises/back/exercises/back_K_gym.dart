@@ -29,7 +29,7 @@ class _BackKGymPageState extends State<BackKGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie, jak poprzednie znów z różnicą w uchwycie. Tutaj stosujemy uchwyt neutralny(„młotkowy”). Również pod innym kątem zaatakowane są te same mięsnie. Efekt podobny, jak w podciąganiu się na drążku w takim samym uchwycie. Ćwiczenie to można również wykonywać na specjalnej maszynie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

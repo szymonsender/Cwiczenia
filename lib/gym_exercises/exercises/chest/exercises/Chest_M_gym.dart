@@ -29,7 +29,7 @@ class _ChestMGymPageState extends State<ChestMGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy pomiędzy dwoma górnymi wyciągami (w tzw.”bramie”) -tułów lekko pochylony, co daje lepszą separację mięsni piersiowych. Chwytamy rączki wyciągów i ściągamy je do wewnątrz w dół. Do tego ćwiczenia należy używać umiarkowanych ciężarów i wykonywać pełen zakres ruchu. Wstrzymanie ruchu w końcowej fazie pozwoli otrzymać lepsze napięcie mięśni i poprawi wyrazistość szczegółów umięśnienia.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

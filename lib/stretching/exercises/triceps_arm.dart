@@ -29,7 +29,7 @@ class _TricepsStretchPageState extends State<TricepsStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stojąc w lekkim rozkroku unosimy jedna rękę, (której mięśnie będziemy rozciągać)pionowo w górę, zginając ją jednocześnie maksymalnie w łokciu. Drugą ręką chwytamy za łokieć i przyciągamy go za głowę.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _TricepsStretchPageState extends State<TricepsStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.2',

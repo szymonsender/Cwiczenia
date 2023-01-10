@@ -29,7 +29,7 @@ class _WithoutEqGPageState extends State<WithoutEqGPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się płasko przodem na podłodze, nogi zapieramy o stabilny sprzęt, ramiona luźno wzdłuż tułowia. Z tej pozycji wykonujemy unoszenie tułowia w górę, jednocześnie nie odrywając od podłogi nóg i bioder. W końcowej fazie(przy maksymalnym wychyleniu tułowia w górę) można zatrzymać ruch na chwilę, dla lepszego napięcia mięśni. Po czym powracamy do pozycji wyjściowej. Powietrza nabieramy przed rozpoczęciem unoszenia-wypuszczamy je, gdy zbliżamy się do góry.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

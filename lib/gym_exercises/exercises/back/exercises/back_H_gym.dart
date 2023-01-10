@@ -29,7 +29,7 @@ class _BackHGymPageState extends State<BackHGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Jak w ćwiczeniu poprzednim z tą różnicą, że użyty w ćwiczeniu jest górny wyciąg i siadamy na podwyższeniu(ławce). Ćwiczenie to atakuje pod nieco innym kątem mięsnie grzbietu. Można stosować na zmianę obie wersje ćwiczenia(na dolnym i górnym wyciągu) dla urozmaicenia treningu. Dodatkowo można jeszcze wykonać ćwiczenie na specjalnej maszynie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

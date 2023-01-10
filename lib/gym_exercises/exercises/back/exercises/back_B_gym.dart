@@ -29,7 +29,7 @@ class _BackBGymPageState extends State<BackBGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Chwytamy specjalny uchwyt (może to być rączka trójkątna od wyciągu przerzucona nad drążkiem prostym) -dłonie równolegle do siebie w odległości ok.20-25cm., palcami skierowane do siebie. Z pełnego zwisu podciągamy się do linii podmostkowej. Nogi zwisają luźno, lekko podkurczone w kolanach. Łokcie staramy się prowadzić wzdłuż tułowia. Opuszczamy się powoli-kontrolując swój ciężar. Jeśli jesteśmy bardziej zaawansowani i możemy wykonać wiele powtórzeń w tym ćwiczeniu, to można zastosować dodatkowe obciążenie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

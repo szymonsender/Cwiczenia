@@ -29,7 +29,7 @@ class _EkspanderAPageState extends State<EkspanderAPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Chwytamy dwa końce gumy w pozycji stojącej, tułów wyprostowany, guma przerzucona za plecy na wysokości łopatek i rozciągamy ją, jednocześnie próbując złączyć wyprostowane ramiona przed sobą.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

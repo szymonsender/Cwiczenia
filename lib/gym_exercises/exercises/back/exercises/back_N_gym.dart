@@ -29,7 +29,7 @@ class _BackNGymPageState extends State<BackNGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy w rozkroku nieco większym niż szerokość barków. Sztangę kładziemy na górnej części mięsni czworobocznych grzbietu. Głowa lekko wygięta do tyłu, ale bez przesady-zbytnie wyginanie głowy może być przyczyną kontuzji. Tułów wyprostowany, klatka piersiowa wypchnięta ku przodowi, łopatki ściągnięte do siebie. Nogi lekko ugięte w kolanach przez cały czas trwania ćwiczenia. Z takiej pozycji wykonujemy skłon do pozycji zbliżonej do poziomego ułożenia tułowia względem podłogi. Bez zatrzymania, ale nie szarpiąc unosimy tułów do pozycji wyjściowej. Ćwiczenie można wykonywać przy pomocy suwnicy Smitha. Ruch powinien być płynny i kontrolowany.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

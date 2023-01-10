@@ -29,7 +29,7 @@ class _TricepsGGymPageState extends State<TricepsGGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy przed wyciągiem górnym (mając go za plecami) w pozycji wykroku (podobnej do „nożyc” ciężarowych), chwytamy rączkę (drążek) nachwytem i prostujemy ramiona w płaszczyźnie poziomej. Ćwiczenie to nie jest polecane osobom początkującym, ze względu na problemy z zachowaniem właściwej techniki. Faza opuszczania wolniejsza niż unoszenia- pełna kontrola ciężaru przez cały czas trwania ćwiczenia.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

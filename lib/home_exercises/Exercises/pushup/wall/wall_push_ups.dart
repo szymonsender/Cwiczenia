@@ -29,7 +29,7 @@ class _WallPushUpPageState extends State<WallPushUpPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kolejne bezprzyrządowe ćwiczenie-potrzebna jest jedynie ściana lub stabilny mebel. Stajemy przy ścianie/meblu i pochylamy się w jego kierunku, opierając się wyprostowanymi ramionami rozpoczynamy pompki. Ćwiczenie polega na opuszczaniu się w kierunku ściany/mebla i powrocie do pozycji wyjściowej. Tułów pozostaje wyprostowany przez cały czas trwania ćwiczenia.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _WallPushUpPageState extends State<WallPushUpPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
         ],
       ),

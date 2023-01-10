@@ -29,7 +29,7 @@ class _BellyKGymPageState extends State<BellyKGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Do ćwiczenia będzie potrzebna ławka (płaska lub skośna- ta druga wydaje się być odpowiedniejsza) z drążkiem do zablokowania nóg. Kładziemy się bokiem na ławce tak, by od pasa w dół całe ciało przylegało do niej, a nogi blokujemy o specjalny drążek. Ramiona skrzyżowane na klatce, tułów w pozycji równoległej do podłoża. Z tej pozycji rozpoczynamy skłony tułowia do góry. Ruch kończymy w momencie maksymalnego wychylenia tułowia w górę. W pozycji końcowej wstrzymujemy na chwilę ruch- wzmaga to napięcie mięśni. Ruch powinien być płynny i w wolnym tempie, bez gwałtownych szarpnięć.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

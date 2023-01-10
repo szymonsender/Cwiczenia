@@ -52,7 +52,12 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Prostowanie ramion na wyciągu stojąc'),
+              child: const Text(
+                'Prostowanie ramion na wyciągu stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -75,7 +80,12 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wyciskanie "francuskie" sztangi w siadzie'),
+              child: const Text(
+                'Wyciskanie "francuskie" sztangi w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -100,7 +110,11 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie "francuskie" jednorącz sztangielki w siadzie'),
+                'Wyciskanie "francuskie" jednorącz sztangielki w siadzie',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -123,7 +137,12 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wyciskanie "francuskie" sztangi w leżeniu'),
+              child: const Text(
+                'Wyciskanie "francuskie" sztangi w leżeniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -146,8 +165,12 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child:
-                  const Text('Wyciskanie "francuskie" sztangielki w leżeniu'),
+              child: const Text(
+                'Wyciskanie "francuskie" sztangielki w leżeniu',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -172,7 +195,11 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Prostowanie ramienia ze sztangielką w opadzie tułowia'),
+                'Prostowanie ramienia ze sztangielką w opadzie tułowia',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -197,7 +224,11 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Prostowanie ramion na wyciągu w płaszczyźnie poziomej stojąc'),
+                'Prostowanie ramion na wyciągu w płaszczyźnie poziomej stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -222,7 +253,11 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Prostowanie ramion na wyciągu w płaszczyźnie poziomej w podporze'),
+                'Prostowanie ramion na wyciągu w płaszczyźnie poziomej w podporze',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -244,7 +279,12 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki na poręczach'),
+              child: const Text(
+                'Pompki na poręczach',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -267,7 +307,12 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Pompki w podporze tyłem'),
+              child: const Text(
+                'Pompki w podporze tyłem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -292,7 +337,11 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Prostowanie ramienia podchwytem na wyciągu stojąc'),
+                'Prostowanie ramienia podchwytem na wyciągu stojąc',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -317,7 +366,11 @@ class _TricepsGymPageState extends State<TricepsGymPage> {
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
               child: const Text(
-                  'Wyciskanie w leżeniu na ławce poziomej wąskim uchwytem'),
+                'Wyciskanie w leżeniu na ławce poziomej wąskim uchwytem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],

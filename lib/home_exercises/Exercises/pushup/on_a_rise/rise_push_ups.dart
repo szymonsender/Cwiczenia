@@ -29,7 +29,7 @@ class _RisePushUpPageState extends State<RisePushUpPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie podobne do poprzedniego, ale wykonywane przy pomocy taboretu/krzesła/podwyższenia. Zaangażowanie mięsni uzależnione od ułożenia tricepsów- jak w poprzednim ćwiczeniu.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _RisePushUpPageState extends State<RisePushUpPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
         ],
       ),

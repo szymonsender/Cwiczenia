@@ -29,7 +29,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Stajemy przy futrynie lub stabilnym sprzęcie domowym w lekkim rozkroku, jedna ręka luźno opuszczona, druga wyprostowana i zaparta (pod kątem 90 stopni względem tułowia)o nasze stabilne oparcie. W tej pozycji wykonujemy skręty tułowia w przeciwnym kierunku do rozciąganej strony klatki(fot.1).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -43,7 +43,6 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.1',
@@ -59,7 +58,7 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Drugie ćwiczenie(fot.1a) rozciąga obie części klatki piersiowej jednocześnie-stajemy przy ścianie (tyłem do niej) -wyciągamy do tyłu wyprostowane ramiona i opieramy je wewnętrznymi częściami dłoni o ścianę, na wysokości nieco powyżej pasa. Pozostają one przez cały czas ćwiczenia w jednakowej pozycji. Z tej pozycji wykonujemy płytkie przysiady, rozciągając jednocześnie mięsnie klatki i obręczy barkowej. Należy wykonywać to ćwiczenie z dużym wyczuciem, ponieważ zbyt głębokie (lub zbyt szybkie) opuszczanie tułowia może spowodować kontuzję stawu barkowego.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -73,7 +72,6 @@ class _ChestStretchPageState extends State<ChestStretchPage> {
             height: 250,
             padding: const EdgeInsets.all(25),
             margin: const EdgeInsets.all(10),
-            // child: const Text('Pompki klasyczne'),
           ),
           const Text(
             'fot.1a',

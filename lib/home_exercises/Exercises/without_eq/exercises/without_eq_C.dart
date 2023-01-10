@@ -29,7 +29,7 @@ class _WithoutEqCPageState extends State<WithoutEqCPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Kładziemy się na plecach ,nogi zaparte o stabilny sprzęt(np. pod szafą, lub kaloryferem) mogą być wyprostowane w kolanach lub ugięte(zmniejsza ryzyko kontuzji dolnego odcinka grzbietu). Ręce nad głową i unosimy tułów w górę. Pierwsza do góry unosi się głowa, potem barki, a na końcu reszta tułowia.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

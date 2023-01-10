@@ -29,7 +29,7 @@ class _TricepsJGymPageState extends State<TricepsJGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Wspaniałe ćwiczenie na zakończenie treningu- maksymalnie „dopompowuje” tricepsy. Polega na wykonywaniu ruchów opuszczania i unoszenia tułowia podpierając się o ławkę z tyłu, a nogi pozostają (działając jak zawias) oparte na drugiej ławce (dobrze jest, gdy ławka ta jest nieco wyższa od tej, na której trzymamy ręce). Ramiona prostujemy do końca dla lepszego napięcia mięśni. Ruch opuszczania powolny, unoszenia nieco szybszy. Ćwiczenie to można wykonywać z uchwytem jak na gif`ie, lub ustawiając ławkę wzdłuż chwytamy ją na końcu po bokach (uchwyt równoległy). Dla zwiększenia trudności ćwiczenia można zastosować dodatkowe obciążenie kładąc np. krążek na uda (gif). Można też wykonywać np. kilka- kilkanaście powtórzeń z obciążeniem, po czym partner zdejmuje nam ciężar, a my wykonujemy jeszcze kilka- kilkanaście powtórzeń. Taka metoda dodatkowo pobudzi mięśnie.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

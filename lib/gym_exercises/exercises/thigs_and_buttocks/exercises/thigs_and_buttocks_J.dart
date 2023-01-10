@@ -29,7 +29,7 @@ class _ThigsButtJGymPageState extends State<ThigsButtJGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to jest odwrotnością poprzedniego -wykrok jest robiony do tyłu zamiast do przodu. Przysiad wykonujemy nie na nodze wykrocznej, ale na zakrocznej -czyli tej, która pozostaje w miejscu. Ćwiczenie to można wykonać ze sztangą, sztangielkami, lub za pomocą suwnicy Smitha.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

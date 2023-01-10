@@ -29,7 +29,7 @@ class _ShoulderAGymPageState extends State<ShoulderAGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'W pozycji stojącej: stajemy w rozkroku nieco szerszym, niż barki (inna forma ćwiczenia zakłada wysunięcie jednej nogi nieco w przód, dla lepszej równowagi) - klatka piersiowa wypchnięta ku przodowi, zachowana naturalna krzywizna kręgosłupa-pracują podczas ćwiczenia tylko ramiona i barki (staramy się unikać dodatkowych ruchów tułowia i nóg), uchwyt nieco szerszy, niż rozstaw barków. Im węższy uchwyt, tym bardziej pracę w ćwiczeniu przejmują mięśnie trójgłowe ramion.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(
@@ -53,7 +53,7 @@ class _ShoulderAGymPageState extends State<ShoulderAGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'W pozycji siedzącej: staramy się zwracać dużą uwagę na prawidłową pozycję-przez cały czas należy mieć wypchniętą ku przodowi klatkę piersiową i zachowywać naturalna krzywiznę kręgosłupa. Taka pozycja zabezpiecza (oczywiście nie w pełni) przed urazami dolnego odcinka kręgosłupa. (można zastosować oparcie o ławkę-zmniejsza naciski na dyski międzykręgowe).',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

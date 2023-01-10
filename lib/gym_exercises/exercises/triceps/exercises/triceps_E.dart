@@ -29,7 +29,7 @@ class _TricepsEGymPageState extends State<TricepsEGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Uchwyt młotkowy w tym ćwiczeniu pozwala nam na maksymalne zaangażowanie głów bocznych i przyśrodkowych tricepsów. Technika, jak w ćwiczeniu ze sztangą z tą różnicą, że sztangielki opuszczamy nie do czoła, a obok głowy. Ćwiczenie można również wykonywać w różnych pozycjach (na ławce skośnej- głową w dół i do góry)- wtedy pracują głowy tricepsów, jak w ćwiczeniu ze sztangą.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

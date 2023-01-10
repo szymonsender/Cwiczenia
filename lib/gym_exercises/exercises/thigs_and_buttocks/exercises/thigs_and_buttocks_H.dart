@@ -29,7 +29,7 @@ class _ThigsButtHGymPageState extends State<ThigsButtHGymPage> {
             margin: const EdgeInsets.all(10),
             child: const Text(
               'Ćwiczenie to wykonujemy na specjalnej maszynie, lub za pomocą wyciągu i specjalnym opasek na nogi. Kładziemy się na brzuchy tak, by poza ławkę wystawały jedynie podudzia poniżej kolan, nogi wyprostowane w kolanach, zaparte o drążek maszyny na wysokości ścięgien Achillesa (nad piętami), dłonie na uchwytach (lub krawędzi) maszyny. Z tej pozycji wykonujemy ruch maksymalnego uginania nóg w kolanach. W końcowym momencie uginania zatrzymujemy ruch przez chwilę dla lepszego napięcia mięśni. Po czym powracamy do pozycji wyjściowej. Powrót w tempie wolnym i pod pełną kontrolą ciężaru. Biodra (jak i reszta tułowia) przez cały czas trwania ćwiczenia przylegają do powierzchni ławki. Powietrze nabieramy przed rozpoczęciem uginania, wypuszczamy je, gdy kończymy uginanie nóg. Ćwiczenie to można wykonać również w pozycji stojąc (jednonóż) -na maszynie, lub wyciągu.',
-              style: TextStyle(fontSize: 15),
+              style: TextStyle(fontSize: 15, color: Colors.white),
             ),
           ),
           Container(

@@ -46,7 +46,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Przysiady'),
+              child: const Text(
+                'Przysiady',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -68,7 +73,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Wspięcia na palce'),
+              child: const Text(
+                'Wspięcia na palce',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -91,7 +101,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Skłony tułowia w leżeniu tyłem'),
+              child: const Text(
+                'Skłony tułowia w leżeniu tyłem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -114,7 +129,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie nóg w leżeniu tyłem'),
+              child: const Text(
+                'Unoszenie nóg w leżeniu tyłem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -137,7 +157,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('"Nożyce" w leżeniu tyłem'),
+              child: const Text(
+                '"Nożyce" w leżeniu tyłem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -160,7 +185,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Spinanie brzucha w leżeniu tyłem'),
+              child: const Text(
+                'Spinanie brzucha w leżeniu tyłem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
           InkWell(
@@ -183,7 +213,12 @@ class _WithoutEqPageState extends State<WithoutEqPage> {
               ),
               padding: const EdgeInsets.all(25),
               margin: const EdgeInsets.all(10),
-              child: const Text('Unoszenie tułowia w leżeniu przodem'),
+              child: const Text(
+                'Unoszenie tułowia w leżeniu przodem',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
             ),
           ),
         ],
